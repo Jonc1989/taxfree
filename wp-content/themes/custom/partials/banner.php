@@ -1,4 +1,4 @@
-<div id="banner" class="col-md-12">
+<div id="banner" class="col-xs-12 clear-pads">
 	<div class="col-md-6">
 		Progressbar
 	</div>
