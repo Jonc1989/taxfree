@@ -31,7 +31,7 @@ function team_register() {
 		'capability_type'    => 'post',
 		'hierarchical'       => true,
 		'menu_position'      => 42,
-		'supports'           => array( 'title', 'editor', 'thumbnail' )
+		'supports'           => array( 'title', 'editor', 'thumbnail', 'excerpt' )
 	);
 
 	register_post_type( 'team', $args );

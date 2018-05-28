@@ -1,10 +1,8 @@
 <div class="col-md-12 col-sm-12 col-xs-12 clear-pads" id="questions">
 
-    <?php get_template_part('partials/menu');?>
-
     <div class="container">
-
-        <div class="question-wrap col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12">
+        <h1 class="title">Самые частые вопросы</h1>
+        <div class="question-wrap col-xs-12">
             <?php
             $args = array(
                 'post_type'      => 'questions',
@@ -38,5 +36,12 @@
                 <?php wp_reset_query(); ?>
             <?php endif; ?>
         </div>
+
+        <div class="col-md-12 col-sm-12 col-xs-12 clear-pads ">
+            <p class="item-title">Принять участие в революционном проекте</p>
+            <p class="item-title">Current discount: 75% from PRE ICO base price</p>
+            <button class="btn">Get my TFC</button>
+        </div>
     </div>
+
 </div>

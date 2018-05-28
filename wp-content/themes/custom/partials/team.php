@@ -1,14 +1,14 @@
 <div class="col-md-12 col-sm-12 col-xs-12 clear-pads" id="team">
-    <h1 class="title"><?php echo __( 'Наша команда', 'preico' ) ?></h1>
-    <div class="container">
 
+    <div class="container">
+        <h1 class="title"><?php echo __( 'Наша команда', 'preico' ) ?></h1>
         <?php
         $args = array(
             'post_type'      => 'team',
             'post_status'    => 'publish',
             'orderby'        => 'post_date',
             'order'          => 'DESC',
-            'posts_per_page' => '3',
+            'posts_per_page' => '8',
         );
         $posts = new WP_Query( $args );
 
@@ -17,7 +17,7 @@
             <?php $num = 0; ?>
             <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
 
-                <div class="col-md-4 col-sm-6 col-xs-12 team-member" style="display: block;">
+                <div class="col-md-3 col-sm-4 col-xs-12 team-member" style="display: block;">
                     <?php $image = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() )); ?>
                     <?php if($image) { ?>
                         <div class="team-photo" style="background: url(<?php echo $image; ?>)no-repeat center center;
@@ -28,6 +28,7 @@
                         </div>
                     <?php } ?>
                     <h4 class=""><?php the_title(); ?></h4>
+                    <div class=""><?php the_excerpt(); ?></div>
                     <div class=""><?php the_content(); ?></div>
                 </div>
 
@@ -58,7 +59,7 @@
             <?php $num = 0; ?>
             <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
 
-                <div class="col-md-4 col-sm-6 col-xs-12 team-member" style="display: none;">
+                <div class="col-md-3 col-sm-4 col-xs-12 team-member" style="display: none;">
                     <?php $image = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() )); ?>
                     <?php if($image) { ?>
                         <div class="team-photo" style="background: url(<?php echo $image; ?>)no-repeat center center;
@@ -69,6 +70,7 @@
                         </div>
                     <?php } ?>
                     <h4 class=""><?php the_title(); ?></h4>
+                    <div class=""><?php the_excerpt(); ?></div>
                     <div class=""><?php the_content(); ?></div>
                 </div>
 

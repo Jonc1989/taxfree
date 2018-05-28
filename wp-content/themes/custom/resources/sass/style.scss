@@ -81,6 +81,9 @@ img{
 .green{
   color: #369800;
 }
+.inline{
+  display: inline-block;
+}
 .center-horizontaly{
   @include display-flex();
   align-items: center;

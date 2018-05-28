@@ -2,6 +2,7 @@
 
 add_filter('show_admin_bar', '__return_false');
 require 'post_types/team-post_type.php';
+require 'post_types/questions-post_type.php';
 
 
 add_action( 'after_setup_theme', 'my_theme_setup' );
@@ -102,6 +103,10 @@ function check_countdown() {
 add_action( 'wp_ajax_check_countdown', 'check_countdown' );
 add_action( 'wp_ajax_nopriv_check_countdown', 'check_countdown' );
 
+function input_callback( $args ) {
+	$option = get_option( $args[0] );
+	echo '<input style="width: 600px;" type="text" id="' . $args[0] . '" name="' . $args[0] . '" value="' . $option . '" />';
+}
 
 function wpdocs_excerpt_more( $more ) {
 	return '';
