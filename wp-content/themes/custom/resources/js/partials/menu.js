@@ -25,17 +25,22 @@ function animateScroll( link ){
     });
 
 }
-// jQuery( document ).ready( function(){
-//
-//     var links = jQuery( '.nav li a' );
-//     animateScroll( links[ 1 ] );
-//     animateScroll( links[ 3 ] );
-//     animateScroll( links[ 5 ] );
-//
-//  
-//
-//     jQuery( document ).on( 'click', '.colapse-icon', function () {
-//         jQuery( '.side-menu' ).toggleClass( 'open' );
-//         jQuery( '.content-wrap' ).toggleClass( 'extended' );
-//     } )
-// });
+jQuery( document ).ready( function(){
+
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+    $('body').eq(0).hide();
+    $('body').css( 'overflow', 'visible' );
+
+    // var links = jQuery( '.nav li a' );
+    // animateScroll( links[ 1 ] );
+    // animateScroll( links[ 3 ] );
+    // animateScroll( links[ 5 ] );
+    //
+    //
+    //
+    // jQuery( document ).on( 'click', '.colapse-icon', function () {
+    //     jQuery( '.side-menu' ).toggleClass( 'open' );
+    //     jQuery( '.content-wrap' ).toggleClass( 'extended' );
+    // } )
+});

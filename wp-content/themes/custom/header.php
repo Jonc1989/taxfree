@@ -9,6 +9,7 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link href="<?php bloginfo('template_directory');?>/style.css" rel="stylesheet">
+	<script type='text/javascript' src="<?php bloginfo('template_url'); ?>/resources/vendor/parallax.min.js"></script>
 	<?php wp_head();?>
 </head>
 <body>
