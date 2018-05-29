@@ -87,9 +87,11 @@
 
     </div>
     <div class="col-md-12 col-sm-12 col-xs-12 clear-pads text-center collapse-btn-container">
-        <a class="btn btn-success more-btn" data-toggle="collapse" href="#more-team" role="button" aria-expanded="false" aria-controls="more-team">
-            <span class="more"><?php echo __( 'More', 'preico' ) ?></span>
-            <span class="less"><?php echo __( 'Less', 'preico' ) ?></span>
+        <a class="more-btn" data-toggle="collapse" href="#more-team" aria-expanded="false" aria-controls="more-team">
+            <button class="green-bg">
+                <span class="more"><?php echo __( 'More', 'preico' ) ?></span>
+                <span class="less"><?php echo __( 'Less', 'preico' ) ?></span>
+            </button>
         </a>
     </div>
 

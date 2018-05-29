@@ -32,7 +32,7 @@
 			<div class="inline">Current discount: 75% from PRE ICO base price</div>
 
 			<p>Payemnt method</p>
-			<button class="btn">Get Tokens ETH</button>
+			<button class="full-width green-bg">Get Tokens ETH</button>
 		</div>
 		<div class="col-md-6">
 			<p>Pre-iCO Bonus (75% discount) ends in</p>

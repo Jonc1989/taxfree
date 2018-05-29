@@ -2,6 +2,7 @@
  * Created by Admin on 11.11.2017..
  */
 
+
 function animateScroll( link ){
 
     jQuery( link ).click(function(e) {

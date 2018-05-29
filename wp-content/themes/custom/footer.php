@@ -1,4 +1,4 @@
-<div class="col-xs-12 clear-pads dark-bg white">
+<div id="footer" class="col-xs-12 clear-pads black-bg white">
 	<div class="container">
 		<div class="col-xs-6">
 			<div class="col-xs-12 clear-pads">

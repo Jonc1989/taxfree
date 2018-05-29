@@ -1,6 +1,6 @@
 
 @import "_fonts";
-@import "_tooltips";
+@import "_variables";
 
 /* PARTIALS */
 @import "partials/index";
@@ -26,13 +26,25 @@ a, button {
    text-decoration-style: unset;
    text-decoration-color: unset;
 }
+button{
+  padding-left: 94px;
+  padding-right: 94px;
+  border: none;
+  border-radius: 3px;
+}
 a:focus, a:hover {
   outline: 0;
   text-decoration: none;
   text-decoration-style: unset;
   text-decoration-color: unset;
 }
-
+.full-width{
+  width: 100%;
+}
+.title{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
 .clear-pads{
   padding-right: 0px!important;
   padding-left: 0px!important;
@@ -55,33 +67,35 @@ img{
 .bold{
   font-weight: bold;
 }
+.black{
+  color: $color-black;
+}
+.white{
+  color: white;
+}
+.green{
+  color: $color-green;
+}
 .circle{
   border-radius: 50%;
 }
 .white-bg{
   background-color: white;
 }
-.yellow-bg{
-  background-color: #ffd334;
-}
+
 .gray-bg{
-  background-color: #f0f2f3;
+  background-color: $color-gray;
+}
+.green-bg{
+  background-color: $color-green;
 }
 .dark-bg{
-  background-color: #181b16;
+  background-color: $color-dark;
 }
-.black{
-  color: #181b16;
+.black-bg{
+  background-color: $color-black;
 }
-.white{
-  color: white;
-}
-.yellow{
-  color: #ffd334;
-}
-.green{
-  color: #369800;
-}
+
 .inline{
   display: inline-block;
 }

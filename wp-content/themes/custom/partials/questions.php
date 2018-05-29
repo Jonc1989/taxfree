@@ -37,11 +37,10 @@
             <?php endif; ?>
         </div>
 
-        <div class="col-md-12 col-sm-12 col-xs-12 clear-pads ">
-            <p class="item-title">Принять участие в революционном проекте</p>
-            <p class="item-title">Current discount: 75% from PRE ICO base price</p>
-            <button class="btn">Get my TFC</button>
-        </div>
     </div>
-
+    <div class="col-md-12 col-sm-12 col-xs-12 clear-pads green-bg text-center">
+        <p class="item-title">Принять участие в революционном проекте</p>
+        <p class="item-title">Current discount: 75% from PRE ICO base price</p>
+        <button class="white-bg">Get my TFC</button>
+    </div>
 </div>

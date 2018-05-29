@@ -1,0 +1,15 @@
+#posts{
+  background: url(resources/images/bg3.png)no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+.post-wrap{
+  box-shadow: 0px 18px 17px 0 rgba(84, 84, 84, 0.07), 0 0 17px 0 rgba(84, 84, 84, 0.08);
+}
+.post-number{
+  width: 5.8rem;
+  height: 5.8rem;
+  border-bottom-right-radius: 50%;
+}

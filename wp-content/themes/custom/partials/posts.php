@@ -1,6 +1,7 @@
-<div id="posts col-xs-12 clear-pads">
+<div id="posts" class="col-xs-12 clear-pads">
     <div class="container">
-        <h1 class="title"><?php echo __( 'КАК ПОЛУЧИТЬ 100% ВОЗВРАТ НДС', 'taxfree' ) ?></h1>
+        <h1 class="title"><span class="dark"><?php echo __( 'КАК ПОЛУЧИТЬ ', 'taxfree' ) ?></span>
+            <span class="green"><?php echo __( '100% ВОЗВРАТ НДС', 'taxfree' ) ?></span></h1>
 
         <?php
         $args = array(
@@ -19,9 +20,8 @@
 
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clear-pads posts-wrap">
                 <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
-                    <div class="col-lg-6 col-md-6 col-sm-6 post-wrap">
-
-                        <div><?php echo $n; ?></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 post-wrap white-bg clear-pads">
+                        <div class="post-number gray-bg text-center"><?php echo $n; ?></div>
                         <div class="col-lg-4 col-md-4 clear-pads">
                             <div class="col-lg-12 col-md-12 clear-pads">
                                 <?php $image = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() )); ?>
@@ -34,9 +34,6 @@
                                     </div>
                                 <?php } ?>
                             </div>
-
-
-
                         </div>
 
 
