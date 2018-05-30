@@ -18,14 +18,21 @@
 	<div class="container">
 		<div class="col-md-6">
 			<h1 class="title">Tax Free Coin</h1>
-			<p>Tax Free Coin</p>
+			<p class="wall-left">децентрализованная tах free
+				платформа на blockchain</p>
 
 			<div class="inline">SoftCap 250,000$</div>
 			<div class="inline">SoftCap 250,000$</div>
 
 			<div class="progress">
-				<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+				<div class="progress-bar green-bg" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
 					<span class="sr-only">60% Complete</span>
+				</div>
+				<div class="progress-bar darker-blue-bg" style="width: 20%">
+					<span class="sr-only">20% Complete (warning)</span>
+				</div>
+				<div class="progress-bar darkest-blue-bg" style="width: 20%">
+					<span class="sr-only">20% Complete (warning)</span>
 				</div>
 			</div>
 			<div class="inline">1TFC=0.01$ </div>
@@ -34,7 +41,7 @@
 			<p>Payemnt method</p>
 			<button class="full-width green-bg">Get Tokens ETH</button>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-6 text-center">
 			<p>Pre-iCO Bonus (75% discount) ends in</p>
 
 

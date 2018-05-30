@@ -5,9 +5,6 @@
 /* PARTIALS */
 @import "partials/index";
 
-/* PAGES */
-@import "pages/index";
-
 body, html {
   height: 100%;
   min-height: 100%;
@@ -42,8 +39,14 @@ a:focus, a:hover {
   width: 100%;
 }
 .title{
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  //padding-top: 5rem;
+  //padding-bottom: 5rem;
+  font-size: 32px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
 }
 .clear-pads{
   padding-right: 0px!important;
@@ -69,6 +72,12 @@ img{
 }
 .black{
   color: $color-black;
+}
+.dark{
+  color: $color-dark;
+}
+.light-blue{
+  color: $color-light-blue;
 }
 .white{
   color: white;
@@ -114,6 +123,10 @@ img{
 }
 .bullet{
   @include transition( transform, .2s, ease-out );
+}
+
+#about, #posts, #advantages, #roadmap, #team, #questions{
+  padding-top: 10rem;
 }
 @import "responsive/_lg";
 @import "responsive/_md";

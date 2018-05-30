@@ -29,7 +29,7 @@
                     <?php } ?>
                     <h4 class=""><?php the_title(); ?></h4>
                     <div class=""><?php the_excerpt(); ?></div>
-                    <div class=""><?php the_content(); ?></div>
+                    <div class="green"><?php the_content(); ?></div>
                 </div>
 
 
@@ -71,7 +71,7 @@
                     <?php } ?>
                     <h4 class=""><?php the_title(); ?></h4>
                     <div class=""><?php the_excerpt(); ?></div>
-                    <div class=""><?php the_content(); ?></div>
+                    <div class="green"><?php the_content(); ?></div>
                 </div>
 
 

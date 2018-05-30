@@ -1,13 +1,36 @@
 .main-template{
   position: relative;
+  margin-top: -100px;
+  .progress{
+    background-color: $color-darker-blue;
+  }
+  .progress-bar {
+
+    &.green-bg{
+      background-color: $color-green;
+      border-radius: 4px;
+    }
+    &.darker-blue-bg{
+      background-color: $color-darker-blue;
+    }
+    &.darkest-blue-bg{
+      background-color: $color-darkest-blue;
+    }
+  }
 }
 #banner{
-  //margin-top: -100px;
-  //padding-top: 100px;
+  padding-top: 250px;
   background-color: #221eb0;
   height: 80rem;
   overflow: hidden;
+  .wall-left{
+
+  }
 }
 #scene{
   position: absolute;
+}
+.wall-left{
+  padding-left: 1.7rem;
+  border-left: 0.8rem solid $color-lightest-blue;
 }

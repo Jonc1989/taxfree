@@ -30,8 +30,6 @@ jQuery( document ).ready( function(){
 
     var scene = document.getElementById('scene');
     var parallax = new Parallax(scene);
-    $('body').eq(0).hide();
-    $('body').css( 'overflow', 'visible' );
 
     // var links = jQuery( '.nav li a' );
     // animateScroll( links[ 1 ] );
