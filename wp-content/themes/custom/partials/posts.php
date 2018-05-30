@@ -22,7 +22,7 @@
                 <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
                     <div class="col-lg-6 col-md-6 col-sm-6 post-wrap white-bg">
 
-                        <div class="col-xs-12 shadow clear-pads center-horizontaly">
+                        <div class="col-xs-12 shadow center-horizontaly">
                             <div class="post-number gray-bg text-center"><?php echo $n; ?></div>
                             <div class="col-lg-4 col-md-4 clear-pads">
                                 <div class="col-lg-12 col-md-12 clear-pads">
@@ -56,7 +56,7 @@
 
 
 
-        <div class="col-xs-12 clear-pads text-center">
+        <div class="col-xs-12 clear-pads text-center cash-back-text">
             <div><img src="<?php bloginfo('template_directory');?>/resources/images/circle_icon.png"></div>
             <h1 class="title dark">Получите 100% возврат</h1>
             <p>ваш возврат будет автоматически зачислен на ваш счет

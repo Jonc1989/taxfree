@@ -1,4 +1,8 @@
 #posts{
+  //padding-bottom: 9rem;
+  .title{
+    padding-bottom: 10.2rem;
+  }
   background: url(resources/images/bg3.png)no-repeat center center;
   -webkit-background-size: contain;
   -moz-background-size: contain;
@@ -12,6 +16,9 @@
     padding-left: 60px;
   }
 }
+.posts-wrap{
+  padding-bottom: 6rem;
+}
 .post-wrap{
   padding-right: 21px;
   padding-left: 0px;
@@ -20,7 +27,6 @@
   padding-left: 21px;
   padding-right: 0px;
 }
-
 .post-number{
   width: 5.8rem;
   height: 5.8rem;
@@ -28,4 +34,9 @@
   position: absolute;
   top: 0px;
   left: 0px;
+}
+.cash-back-text{
+  .title{
+    padding-bottom: 2.5rem;
+  }
 }

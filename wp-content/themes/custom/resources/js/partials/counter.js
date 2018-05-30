@@ -1,7 +1,6 @@
 /**
  * Created by Jānis Mozais on 11.11.2017..
  */
-
 function checkCounter() {
     var data = {
         'action': 'check_countdown'

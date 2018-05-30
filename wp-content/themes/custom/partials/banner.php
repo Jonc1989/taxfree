@@ -41,8 +41,8 @@
 			<p>Payemnt method</p>
 			<button class="full-width green-bg">Get Tokens ETH</button>
 		</div>
-		<div class="col-md-6 text-center">
-			<p>Pre-iCO Bonus (75% discount) ends in</p>
+		<div class="col-md-6 text-center timer">
+			<p class="uppercase">Pre-iCO Bonus (75% discount) ends in</p>
 
 
 			<div class="counter-wrap">

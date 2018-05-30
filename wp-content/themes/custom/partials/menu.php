@@ -18,16 +18,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+                    <a id="brand" class="navbar-brand logo" href="<?php echo home_url() ?>" >
+                        <img src="<?php bloginfo('template_directory');?>/resources/images/svg/logo.svg">
+                    </a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="<?php echo home_url() ?>" style="padding: 0;">
-                                <div class="logo">
-                                    <img src="<?php bloginfo('template_directory');?>/resources/images/svg/logo.svg">
-                                </div>
-                            </a>
-                        </li>
 
                         <?php foreach ( $menu as $item ){?>
                             <li><a href="<?php echo $item->url; ?>"><?php echo $item->title; ?></a></li>

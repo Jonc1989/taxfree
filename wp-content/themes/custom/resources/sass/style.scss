@@ -24,8 +24,7 @@ a, button {
    text-decoration-color: unset;
 }
 button{
-  padding-left: 94px;
-  padding-right: 94px;
+  padding: 2.3rem 9.4rem;
   border: none;
   border-radius: 3px;
 }
@@ -40,7 +39,7 @@ a:focus, a:hover {
 }
 .title{
   //padding-top: 5rem;
-  //padding-bottom: 5rem;
+  padding-bottom: 3.5rem;
   font-size: 32px;
   font-weight: 800;
   font-style: normal;
@@ -104,7 +103,9 @@ img{
 .black-bg{
   background-color: $color-black;
 }
-
+.uppercase{
+  text-transform: uppercase;
+}
 .inline{
   display: inline-block;
 }
@@ -112,12 +113,7 @@ img{
   @include display-flex();
   align-items: center;
 }
-.font15{
-  font-size: 15px;
-}
-.font20{
-  font-size: 20px;
-}
+
 .collapse-arrow{
   @include transition( transform, .35s, ease-out );
 }
@@ -127,7 +123,17 @@ img{
 
 #about, #posts, #advantages, #roadmap, #team, #questions{
   padding-top: 10rem;
+  padding-bottom: 9rem;
 }
+.h1, .h2, .h3, h1, h2, h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.counter-wrap p{
+  font-size: 1.2rem;
+}
+
+
 @import "responsive/_lg";
 @import "responsive/_md";
 @import "responsive/_sm";

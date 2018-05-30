@@ -1,7 +1,7 @@
 <div class="col-md-12 col-sm-12 col-xs-12 clear-pads" id="team">
 
     <div class="container">
-        <h1 class="title"><?php echo __( 'Наша команда', 'preico' ) ?></h1>
+        <h1 class="title white text-center"><?php echo __( 'Наша команда', 'preico' ) ?></h1>
         <?php
         $args = array(
             'post_type'      => 'team',
@@ -27,8 +27,8 @@
                                 background-size: cover;">
                         </div>
                     <?php } ?>
-                    <h4 class=""><?php the_title(); ?></h4>
-                    <div class=""><?php the_excerpt(); ?></div>
+                    <h4 class="white"><?php the_title(); ?></h4>
+                    <div class="white"><?php the_excerpt(); ?></div>
                     <div class="green"><?php the_content(); ?></div>
                 </div>
 
@@ -69,8 +69,8 @@
                                 background-size: cover;">
                         </div>
                     <?php } ?>
-                    <h4 class=""><?php the_title(); ?></h4>
-                    <div class=""><?php the_excerpt(); ?></div>
+                    <h4 class="white"><?php the_title(); ?></h4>
+                    <div class="white"><?php the_excerpt(); ?></div>
                     <div class="green"><?php the_content(); ?></div>
                 </div>
 
@@ -89,8 +89,8 @@
     <div class="col-md-12 col-sm-12 col-xs-12 clear-pads text-center collapse-btn-container">
         <a class="more-btn" data-toggle="collapse" href="#more-team" aria-expanded="false" aria-controls="more-team">
             <button class="green-bg">
-                <span class="more"><?php echo __( 'More', 'preico' ) ?></span>
-                <span class="less"><?php echo __( 'Less', 'preico' ) ?></span>
+                <span class="more white"><?php echo __( 'More', 'preico' ) ?></span>
+                <span class="less white"><?php echo __( 'Less', 'preico' ) ?></span>
             </button>
         </a>
     </div>
