@@ -121,10 +121,6 @@ img{
   @include transition( transform, .2s, ease-out );
 }
 
-#about, #posts, #advantages, #roadmap, #team, #questions{
-  padding-top: 10rem;
-  padding-bottom: 9rem;
-}
 .h1, .h2, .h3, h1, h2, h3 {
   margin-top: 0;
   margin-bottom: 0;

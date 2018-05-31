@@ -10,8 +10,13 @@ get_header(); ?>
 	<?php get_template_part('partials/about');?>
 	<?php get_template_part('partials/posts');?>
 	<?php get_template_part('partials/advantages');?>
-	<?php get_template_part('partials/roadmap');?>
-	<?php get_template_part('partials/team');?>
+	<div class="col-xs-12 clear-pads" style="background-color: #221eb0;">
+		<div class="col-xs-12 clear-pads roadmap-bg">
+			<?php get_template_part('partials/roadmap');?>
+			<?php get_template_part('partials/team');?>
+		</div>
+	</div>
+
 	<?php get_template_part('partials/questions');?>
 
 

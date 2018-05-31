@@ -21,7 +21,7 @@
                             <div class="col-md-12 col-sm-12 col-xs-12 question-title"> <?php the_title(); ?></div>
 
                             <div>
-                                <img class="bullet" src="<?php bloginfo('template_directory');?>/resources/images/yellow-arrow.png">
+                                <img class="bullet" src="<?php bloginfo('template_directory');?>/resources/images/svg/cross.svg">
                             </div>
                         </div>
                     </a>
@@ -39,10 +39,10 @@
 
     </div>
     <div class="col-md-12 col-sm-12 col-xs-12 clear-pads green-bg text-center">
-        <p class="first-title">Принять участие в революционном проекте</p>
-        <p class="second-title">Current discount: 75% from PRE ICO base price</p>
+        <p class="first-title white">Принять участие в революционном проекте</p>
+        <p class="second-title white">Current discount: 75% from PRE ICO base price</p>
         <a href="">
-            <button class="white-bg">Get my TFC</button>
+            <button class="white-bg bold">Get my TFC</button>
         </a>
 
     </div>

@@ -26,6 +26,14 @@
                                 -o-background-size: cover;
                                 background-size: cover;">
                         </div>
+                    <?php } else{ ?>
+                        <div class="team-photo" style="background: url(<?php bloginfo('template_directory');?>/resources/images/avatar.png)no-repeat center center;
+                            -webkit-background-size: cover;
+                            -moz-background-size: cover;
+                            -o-background-size: cover;
+                            background-size: cover;">
+                        </div>
+
                     <?php } ?>
                     <h4 class="white"><?php the_title(); ?></h4>
                     <div class="white"><?php the_excerpt(); ?></div>
@@ -68,6 +76,14 @@
                                 -o-background-size: cover;
                                 background-size: cover;">
                         </div>
+                    <?php } else{ ?>
+                        <div class="team-photo" style="background: url(<?php bloginfo('template_directory');?>/resources/images/avatar.png)no-repeat center center;
+                            -webkit-background-size: cover;
+                            -moz-background-size: cover;
+                            -o-background-size: cover;
+                            background-size: cover;">
+                        </div>
+
                     <?php } ?>
                     <h4 class="white"><?php the_title(); ?></h4>
                     <div class="white"><?php the_excerpt(); ?></div>

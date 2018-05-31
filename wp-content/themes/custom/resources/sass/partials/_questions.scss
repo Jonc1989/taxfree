@@ -5,9 +5,13 @@
     padding-bottom: 5.4rem;
     .first-title{
       margin-bottom: 2rem;
+      font-size: 18px;
     }
     .second-title{
       margin-bottom: 2.8rem;
+    }
+    a{
+      color: $color-dark;
     }
   }
 }
@@ -37,6 +41,18 @@
     margin-bottom: 0;
   }
 }
+.collapsed{
+  .question-toggle {
+    img{
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+  }
+
+}
 .question-toggle {
   position: relative;
 
@@ -49,5 +65,13 @@
   min-height: 65px;
   img{
     float: right;
+    width: 21px;
+    height: 21px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
   }
+
 }

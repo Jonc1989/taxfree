@@ -1,8 +1,9 @@
 .main-template{
   position: relative;
-  margin-top: -105px;
+  //margin-top: -105px;
   .progress{
     background-color: $color-darker-blue;
+    width: 100%;
   }
   .progress-bar {
 
@@ -16,6 +17,8 @@
     &.darkest-blue-bg{
       background-color: $color-darkest-blue;
     }
+    @include transition( width, 2.5s, linear );
+    transition-property: width;
   }
 }
 #banner{
@@ -23,22 +26,54 @@
   background-color: #221eb0;
   height: 80rem;
   overflow: hidden;
-  .wall-left{
-
+  .inline{
+    margin-bottom: 15px;
+  }
+  a, a:hover{
+    color: white;
   }
 }
 #scene{
   position: absolute;
 }
+.soft-cap{
+  font-size: 18px;
+}
 .wall-left{
   padding-left: 1.7rem;
+
   border-left: 0.8rem solid $color-lightest-blue;
+  line-height: 1.78;
+}
+.progress-bar-wrap{
+  .inline{
+    font-size: 1.2rem;
+  }
+}
+.progress-bar-wrap, .wall-left{
+  margin-bottom: 5rem;
 }
 .counter-wrap{
   margin-bottom: 4.7rem;
 }
-.days{
-
+.eth{
+  width: 14px;
+  height: 23px;
+  float: right;
+}
+.payemnt_method{
+  position: absolute;
+  top: 3px;
+  left: 0px;
+}
+.blue-line{
+  height: 1px;
+  margin-top: 12px;
+  background-color: #4d49d4;
+  width: auto;
+  margin-right: 25px;
+  margin-left: 130px;
+  overflow: hidden;
 }
 .counter-number{
   height: 5.4rem;

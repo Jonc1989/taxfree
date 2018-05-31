@@ -1,16 +1,33 @@
-#advantages, #roadmap{
+#advantages{
   background-color: $color-dark-blue;
-
+  padding-top: 12rem;
 }
 #advantages{
-  img{
-    max-width: 12.8rem;
-    max-height: 12.8rem;
+  .img-wrap{
+    padding-bottom: 6rem;
+    height: 18.8rem;
+    img{
+      max-width: 12.8rem;
+      max-height: 12.8rem;
+      margin: 0 auto;
+    }
   }
+
   .green{
     font-size: 1.8rem;
   }
   .light-blue{
     margin-bottom: 12rem;
+  }
+  .cloud_white, .fast_white, .sum_white, .procents_white{
+    display: none;
+  }
+  .item:hover{
+    .cloud, .fast, .sum, .procents{
+      display: none;
+    }
+    .cloud_white, .fast_white, .sum_white, .procents_white{
+      display: block;
+    }
   }
 }

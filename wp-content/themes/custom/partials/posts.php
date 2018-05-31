@@ -53,14 +53,5 @@
             </div>
         <?php endif; ?>
 
-
-
-
-        <div class="col-xs-12 clear-pads text-center cash-back-text">
-            <div><img src="<?php bloginfo('template_directory');?>/resources/images/circle_icon.png"></div>
-            <h1 class="title dark">Получите 100% возврат</h1>
-            <p>ваш возврат будет автоматически зачислен на ваш счет
-                после подтверждения штрих кодa</p>
-        </div>
     </div>
 </div>
