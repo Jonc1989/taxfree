@@ -16,7 +16,7 @@
 	</ul>
 
 	<div class="container">
-		<div class="col-md-6">
+		<div class="col-md-6 col-sm-6">
 			<h1 class="title">Tax Free Coin</h1>
 			<p class="wall-left">Децентрализованная tах free
 				платформа на blockchain</p>
@@ -44,7 +44,7 @@
 
 			<a href="" ><button class="full-width green-bg">Get Tokens ETH</button></a>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-6 col-sm-6">
 			<div class="col-md-12 text-center timer clear-padscd ">
 				<p class="uppercase">Pre-iCO Bonus (75% discount) ends in</p>
 

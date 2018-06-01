@@ -16,6 +16,10 @@
   .green{
     font-size: 1.8rem;
   }
+  .white{
+    max-width: 33rem;
+    margin: 0 auto;
+  }
   .light-blue{
     margin-bottom: 12rem;
   }
@@ -29,5 +33,8 @@
     .cloud_white, .fast_white, .sum_white, .procents_white{
       display: block;
     }
+  }
+  .item{
+    margin-bottom: 4rem;
   }
 }

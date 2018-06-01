@@ -28,7 +28,7 @@
                                 <div class="col-lg-12 col-md-12 clear-pads">
                                     <?php $image = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() )); ?>
                                     <?php if($image) { ?>
-                                        <div class="description-post-img" style="height: 150px; background: url(<?php echo $image; ?>)no-repeat center center;
+                                        <div class="description-post-img" style="background: url(<?php echo $image; ?>)no-repeat center center;
                                             -webkit-background-size: contain;
                                             -moz-background-size: contain;
                                             -o-background-size: contain;
@@ -39,7 +39,7 @@
                             </div>
     
     
-                            <div class="col-lg-8 col-md-8 clear-pads">
+                            <div class="col-lg-8 col-md-8 text-block">
                                 <h3><?php the_title(); ?></h3>
                                 <p><?php the_content(); ?></p>
                             </div>

@@ -15,9 +15,28 @@
   }
 }
 
+@media (max-width: 991px) {
+  body{
+    //font-size: 12px;
+  }
+}
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 
+  #posts{
+    .shadow{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+  .post-number {
+    width: 4rem;
+    height: 4rem;
+    padding-top: 1.2rem;
+    font-size: 2rem;
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -30,5 +49,34 @@
   .timer{
     width: 460px;
     float: right;
+  }
+  .post-wrap{
+    padding-right: 2.1rem;
+    padding-left: 0;
+
+  }
+  .post-wrap:nth-of-type(2n){
+    padding-left: 2.1rem;
+    padding-right: 0;
+  }
+  #posts{
+    .shadow{
+      padding-top: 30px;
+      padding-bottom: 30px;
+      padding-right: 60px;
+      padding-left: 60px;
+    }
+  }
+  .post-number {
+    width: 5.8rem;
+    height: 5.8rem;
+    padding-top: 1.6rem;
+    font-size: 2.7rem;
+  }
+  .nav > li > a {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
   }
 }
