@@ -45,7 +45,18 @@ var stickyNav = function(){
 
 };
 
+get_team_members = function ( more ) {
 
+    if(more){
+        $('.team-member').slice(4).slideToggle( 400 );
+        $('.more-btn').removeClass('more')
+        equalheight('.team-member');
+    }else{
+        $('.team-member').slice(4).slideToggle( 400 );
+        $('.more-btn')
+          .addClass('more')
+    }
+};
 
 jQuery( document ).ready( function(){
 
@@ -69,4 +80,13 @@ jQuery( document ).ready( function(){
     //     jQuery( '.side-menu' ).toggleClass( 'open' );
     //     jQuery( '.content-wrap' ).toggleClass( 'extended' );
     // } )
+
+    
+    $(document).ready(function () {
+
+        $(document).on('click', '.more-btn', function () {
+            var more = $(this).hasClass('more');
+            get_team_members(more);
+        });
+    });
 });

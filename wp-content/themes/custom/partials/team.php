@@ -7,15 +7,15 @@
             'post_type'      => 'team',
             'post_status'    => 'publish',
             'orderby'        => 'post_date',
-            'order'          => 'DESC',
-            'posts_per_page' => '8',
+            'order'          => 'ASC',
+            'posts_per_page' => '4',
         );
-        $posts = new WP_Query( $args );
+        $team = new WP_Query( $args );
 
-        if ( $posts->have_posts() ) : ?>
+        if ( $team->have_posts() ) : ?>
 
             <?php $num = 0; ?>
-            <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
+            <?php while ( $team->have_posts() ) : $team->the_post(); ?>
 
                 <div class="col-md-3 col-sm-4 col-xs-12 team-member" style="display: block;">
                     <?php $image = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() )); ?>
@@ -40,31 +40,23 @@
                     <div class="green"><?php the_content(); ?></div>
                 </div>
 
-
-
-
                 <?php $num++;?>
             <?php endwhile; ?>
             <?php wp_reset_query(); ?>
         <?php endif; ?>
-
-
-        <!--</div>
-        <div class="container collapse" id="more-team">-->
 
         <?php
         $args = array(
             'post_type'      => 'team',
             'post_status'    => 'publish',
             'orderby'        => 'post_date',
-            'order'          => 'DESC',
-            'offset' => '3',
+            'order'          => 'ASC',
+            'offset' => '4',
         );
         $posts = new WP_Query( $args );
-
+        $show_button = false;
         if ( $posts->have_posts() ) : ?>
-
-            <?php $num = 0; ?>
+            <?php $show_button = true; $num = 0; ?>
             <?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
 
                 <div class="col-md-3 col-sm-4 col-xs-12 team-member" style="display: none;">
@@ -90,27 +82,20 @@
                     <div class="green"><?php the_content(); ?></div>
                 </div>
 
-
-
-
                 <?php $num++;?>
             <?php endwhile; ?>
             <?php wp_reset_query(); ?>
         <?php endif; ?>
-
-
-
-
     </div>
-    <div class="col-md-12 col-sm-12 col-xs-12 clear-pads text-center collapse-btn-container">
-        <a class="more-btn" data-toggle="collapse" href="#more-team" aria-expanded="false" aria-controls="more-team">
-            <button class="green-bg">
-                <span class="more white"><?php echo __( 'More', 'preico' ) ?></span>
-                <span class="less white"><?php echo __( 'Less', 'preico' ) ?></span>
-            </button>
-        </a>
-    </div>
-
-
-
+    <?php if( $show_button ){?>
+        <div class="col-md-12 col-sm-12 col-xs-12 clear-pads text-center collapse-btn-container">
+            <a class="more-btn" data-toggle="collapse" href="#more-team" aria-expanded="false" aria-controls="more-team">
+                <button class="green-bg">
+                    <span class="more white"><?php echo __( 'Show all team members', 'preico' ) ?></span>
+                    <span class="less white"><?php echo __( 'Show less team members', 'preico' ) ?></span>
+                </button>
+            </a>
+        </div>
+    <?php }?>
+    
 </div>
