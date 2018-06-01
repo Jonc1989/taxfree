@@ -1,0 +1,35 @@
+#footer{
+  padding-top: 7rem;
+  padding-bottom: 13rem;
+  .logo-wrap{
+    margin-bottom: 5rem;
+  }
+  li{
+    display: inline-block;
+  }
+}
+.soc-icons{
+  margin-bottom: 7rem;
+}
+.left-block{
+  a{
+    color: white;
+    margin-right: 40px;
+  }
+  a:last-of-type{
+    margin-right: 0px;
+  }
+}
+.right-block{
+  text-align: right;
+  a{
+    float: right;
+    margin-right: 40px;
+  }
+  a:first-of-type{
+    margin-right: 0px;
+  }
+  img{
+    height: 32px;
+  }
+}

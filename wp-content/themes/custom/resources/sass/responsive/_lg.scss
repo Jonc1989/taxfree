@@ -7,6 +7,28 @@
 @media (min-width: 576px) {
 
 }
+@media (max-width: 767px){
+  #footer{
+    .left-block{
+      margin-bottom: 2rem;
+      text-align: center;
+      .logo{
+        margin: 0 auto;
+      }
+      .logo-wrap {
+        margin-bottom: 2rem;
+      }
+    }
+    .right-block {
+      text-align: center;
+      a{
+        float: none;
+        //margin-right: 0px;
+      }
+    }
+  }
+}
+
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px){
