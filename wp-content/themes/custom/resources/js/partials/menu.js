@@ -26,10 +26,37 @@ function animateScroll( link ){
     });
 
 }
+
+var lastScrollTop = 0;
+var stickyNav = function(){
+
+    var scrollTop = $(window).scrollTop();
+
+    if (scrollTop > lastScrollTop || scrollTop < 10){
+        // downscroll code
+        $('.menu-container').removeClass('sticky');
+        $('body').removeClass('navbar-placeholder');
+    } else {
+        // upscroll code
+        $('.menu-container').addClass('sticky');
+        $('body').addClass('navbar-placeholder');
+    }
+    lastScrollTop = scrollTop;
+
+};
+
+
+
 jQuery( document ).ready( function(){
 
     var scene = document.getElementById('scene');
     var parallax = new Parallax(scene);
+
+    stickyNav();
+
+    $(window).scroll(function() {
+        stickyNav();
+    });
 
     // var links = jQuery( '.nav li a' );
     // animateScroll( links[ 1 ] );

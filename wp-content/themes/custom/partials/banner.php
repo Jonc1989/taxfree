@@ -49,20 +49,20 @@
 				<p class="uppercase">Pre-iCO Bonus (75% discount) ends in</p>
 
 
-				<div class="counter-wrap">
-					<div class="days inline">
+				<div class="counter-wrap col-xs-12 clear-pads">
+					<div class="days inline col-xs-3 clear-pads">
 						<div class="counter-number"></div>
 						<div class="counter-text">Days</div>
 					</div>
-					<div class="hours inline">
+					<div class="hours inline col-xs-3 clear-pads">
 						<div class="counter-number"></div>
 						<div class="counter-text">Hours</div>
 					</div>
-					<div class="minutes inline">
+					<div class="minutes inline col-xs-3 clear-pads">
 						<div class="counter-number"></div>
 						<div class="counter-text">Minutes</div>
 					</div>
-					<div class="seconds inline">
+					<div class="seconds inline col-xs-3 clear-pads">
 						<div class="counter-number"></div>
 						<div class="counter-text">Seconds</div>
 					</div>

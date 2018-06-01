@@ -29,6 +29,11 @@
   .inline{
     margin-bottom: 15px;
   }
+  .counter-wrap{
+    .inline{
+      margin-bottom: 0;
+    }
+  }
   a, a:hover{
     color: white;
   }
@@ -81,4 +86,9 @@
   line-height: 1;
   font-size: 3.2rem;
   font-weight: 800;
+}
+.timer{
+  .uppercase{
+    margin-bottom: 3.5rem;
+  }
 }

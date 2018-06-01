@@ -1,6 +1,13 @@
 /**
  * Created by Jānis Mozais on 11.11.2017..
  */
+
+function addZero( value ) {
+    if( value < 10 ){
+        return '0' + value;
+    }
+    return value;
+}
 function checkCounter() {
     var data = {
         'action': 'check_countdown'
@@ -31,50 +38,58 @@ function checkCounter() {
                     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                     if(  jQuery( '.counter-wrap .days .counter-number' ).text() != days && days >= 0 ){
+                        days = addZero( days );
                         jQuery( '.counter-wrap .days .counter-number' ).text( days );
                     }else{
                         if( days >= 0 ){
+                            days = addZero( days );
                             jQuery( '.counter-wrap .days .counter-number' ).text( days );
                         }else{
-                            jQuery( '.counter-wrap .days .counter-number' ).text( 0 );
+                            jQuery( '.counter-wrap .days .counter-number' ).text( '00' );
                         }
                     }
 
 
                     if( jQuery( '.counter-wrap .hours .counter-number' ).text() != hours && hours >= 0 ){
                         jQuery( '.counter-wrap .hours .counter-number' ).hide();
+                        hours = addZero( hours );
                         jQuery( '.counter-wrap .hours .counter-number' ).text( hours );
                         jQuery( '.counter-wrap .hours .counter-number' ).fadeIn( "slow");
                     }else{
                         if( hours >= 0 ){
+                            hours = addZero( hours );
                             jQuery( '.counter-wrap .hours .counter-number' ).text( hours );
                         }else{
-                            jQuery( '.counter-wrap .hours .counter-number' ).text( 0 );
+                            jQuery( '.counter-wrap .hours .counter-number' ).text( '00' );
                         }
                     }
 
 
                     if( jQuery( '.counter-wrap .minutes .counter-number' ).text() != minutes && minutes >= 0 ){
                         jQuery( '.counter-wrap .minutes .counter-number' ).hide();
+                        minutes = addZero( minutes );
                         jQuery( '.counter-wrap .minutes .counter-number' ).text( minutes );
                         jQuery( '.counter-wrap .minutes .counter-number' ).fadeIn( "slow");
                     }else{
                         if( minutes >= 0 ){
+                            minutes = addZero( minutes );
                             jQuery( '.counter-wrap .minutes .counter-number' ).text( minutes );
                         }else{
-                            jQuery( '.counter-wrap .minutes .counter-number' ).text( 0 );
+                            jQuery( '.counter-wrap .minutes .counter-number' ).text( '00' );
                         }
                     }
 
                     if( jQuery('.counter-wrap .seconds .counter-number').text() != seconds && seconds >= 0 ){
                         jQuery( '.counter-wrap .seconds .counter-number' ).hide();
+                        seconds = addZero( seconds );
                         jQuery( '.counter-wrap .seconds .counter-number' ).text( seconds );
                         jQuery( '.counter-wrap .seconds .counter-number' ).fadeIn( "slow");
                     }else{
                         if( minutes >= 0 ){
+                            seconds = addZero( seconds );
                             jQuery( '.counter-wrap .seconds .counter-number' ).text( seconds );
                         }else{
-                            jQuery( '.counter-wrap .seconds .counter-number' ).text( 0 );
+                            jQuery( '.counter-wrap .seconds .counter-number' ).text( '0' );
                         }
                     }
 
