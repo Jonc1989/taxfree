@@ -1,6 +1,7 @@
 #advantages{
   background-color: $color-dark-blue;
   padding-top: 12rem;
+  padding-bottom: 12rem;
 }
 #advantages{
   .img-wrap{
@@ -16,8 +17,12 @@
   .green{
     font-size: 1.8rem;
   }
+  .info{
+    .white{
+      max-width: 33rem;
+    }
+  }
   .white{
-    max-width: 33rem;
     margin: 0 auto;
   }
   .light-blue{

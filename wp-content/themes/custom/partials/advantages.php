@@ -4,7 +4,7 @@
         <h1 class="title white text-center">преимущество инновационной
             системы Tax Free</h1>
         <p class="light-blue text-center">Используйте весь потенциал возврата НДC</p>
-        <div class="col-xs-12 clear-pads">
+        <div class="col-xs-12 clear-pads info">
             <div class="col-md-3 col-sm-6 col-xs-12 text-center item">
                 <div class="col-xs-12 clear-pads text-center img-wrap center-horizontaly">
                     <img class="cloud" src="<?php bloginfo('template_directory');?>/resources/images/svg/cloud.svg" alt="cloud">

@@ -12,7 +12,7 @@
         <div class="col-md-6 col-sm-6 text-right">
             <img src="<?php bloginfo('template_directory');?>/resources/images/mobile.png">
         </div>
-        <div class="col-xs-12 text-center">
+        <div class="col-xs-12 text-center more-info">
             <img style="width: 104px; height: 54px;" src="<?php bloginfo('template_directory');?>/resources/images/svg/dotted_arrow.svg">
         </div>
     </div>

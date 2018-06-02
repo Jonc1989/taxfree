@@ -59,7 +59,7 @@ function counter() {
 	add_settings_section(
 		'counter_section',
 		'Counter section',
-		'counter_callback',
+		'callback',
 		'general'
 	);
 
@@ -88,7 +88,66 @@ function counter() {
 	register_setting( 'general', 'date_setup', 'esc_attr' );
 }
 
-function counter_callback() {
+function register_custom_fields() {
+    add_settings_section(
+        'custom_fields',
+        'Custom info',
+        'callback',
+        'general'
+    );
+
+    add_settings_field(
+        'facebook_input',
+        'Facebook page',
+        'input_callback',
+        'general',
+        'custom_fields',
+        array(
+            'facebook_input'
+        )
+    );
+
+    add_settings_field(
+        'twitter_input',
+        'Twitter page',
+        'input_callback',
+        'general',
+        'custom_fields',
+        array(
+            'twitter_input'
+        )
+    );
+
+    add_settings_field(
+        'telegraph_input',
+        'Telegraph page',
+        'input_callback',
+        'general',
+        'custom_fields',
+        array(
+            'telegraph_input'
+        )
+    );
+
+    add_settings_field(
+        'video_input',
+        'Video',
+        'input_callback',
+        'general',
+        'custom_fields',
+        array(
+            'video_input'
+        )
+    );
+
+    register_setting( 'general', 'facebook_input', 'esc_attr' );
+    register_setting( 'general', 'twitter_input', 'esc_attr' );
+    register_setting( 'general', 'telegraph_input', 'esc_attr' );
+    register_setting( 'general', 'video_input', 'esc_attr' );
+}
+add_action( 'admin_init', 'register_custom_fields' );
+
+function callback() {
 	echo '<span> </span>';
 }
 

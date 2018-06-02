@@ -1,7 +1,6 @@
 /**
  * Created by Jānis Mozais on 11.11.2017..
  */
-
 function addZero( value ) {
     if( value < 10 ){
         return '0' + value;

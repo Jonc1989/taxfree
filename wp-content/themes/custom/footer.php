@@ -1,5 +1,5 @@
 <div id="footer" class="col-xs-12 clear-pads black-bg white">
-	<div class="container">
+	<div class="container clear-pads">
 		<div class="col-sm-6 col-xs-12 left-block">
 			<div class="col-xs-12 clear-pads logo-wrap">
 				<div class="logo">
@@ -23,13 +23,13 @@
 
 		<div class="col-sm-6 col-xs-12 right-block">
 			<div class="col-xs-12 soc-icons">
-				<a href="twitter.com">
+				<a target="_blank" href="<?php echo get_option( 'twitter_input' ); ?>">
 					<img class="sum" src="<?php bloginfo('template_directory');?>/resources/images/svg/twitter.svg" alt="sum">
 				</a>
-				<a href="facebook.com">
+				<a target="_blank" href="<?php echo get_option( 'facebook_input' ); ?>">
 					<img class="sum" src="<?php bloginfo('template_directory');?>/resources/images/svg/facebook.svg" alt="sum">
 				</a>
-				<a href="https://telegram.org/">
+				<a target="_blank" href="<?php echo get_option( 'telegraph_input' ); ?>">
 					<img class="sum" src="<?php bloginfo('template_directory');?>/resources/images/svg/telegram.svg" alt="sum">
 				</a>
 			</div>

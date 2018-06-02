@@ -3,7 +3,7 @@
   &.sticky{
     //padding-top: 2rem;
   }
-
+  background-color: #221eb0;
   transition: padding-top 0.4s linear;
   -moz-transition: padding-top 0.4s linear; /* Firefox 4 */
   -webkit-transition: padding-top 0.4s linear; /* Safari and Chrome */
@@ -11,7 +11,6 @@
   -ms-transition: padding-top 0.4s linear; /* Explorer 10 */
 
   z-index: 1;
-  position: absolute;
   top: 0px;
   width: 100%;
 }

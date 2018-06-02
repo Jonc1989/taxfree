@@ -68,13 +68,57 @@
 					</div>
 				</div>
 
-				<div class="col-md-12 clear-pads video-preview" style="height: 270px; px;background: url(https://img.youtube.com/vi/iXAbte4QXKs/0.jpg)no-repeat center center;
-					-webkit-background-size: cover;
-					-moz-background-size: cover;
-					-o-background-size: cover;
-					background-size: cover;">
+                	<?php
+				$video = get_option( 'video_input' );
+				if( strpos( $video, "=") != 0 ){
+					$video  = substr( $video, strpos( $video, "=") + 1);
+				}else{
+					$parts = explode("/", $video );
+					$video = $parts[ count( $parts ) - 1 ];
+				}
 
-				</div>
+				$preview = '';
+				if(@file_get_contents("https://img.youtube.com/vi/".$video."/maxresdefault.jpg"))
+				{
+					$preview = "https://img.youtube.com/vi/".$video."/maxresdefault.jpg";
+				}
+				elseif( @file_get_contents("https://img.youtube.com/vi/".$video."/maxresdefault.jpg") )
+				{
+					$preview = "https://img.youtube.com/vi/".$video."/sddefault.jpg";
+				}else{
+					$preview = "https://img.youtube.com/vi/".$video."/0.jpg";
+				} ?>
+
+                <a href="" data-toggle="modal" data-target="#video">
+                    <div class="col-md-12 clear-pads video-preview" style="height: 270px; px;
+                    background: url(<?php echo $preview; ?>)no-repeat center center;
+                        -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;
+                        background-size: cover;">
+
+                    </div>
+                </a>
+
+                <div class="modal fade" id="video" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="">
+
+                            <div class=""><button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <iframe src="https://www.youtube.com/embed/s7zY0A1DxMA"
+                                        frameborder="0"
+                                        allow="autoplay;
+                                        encrypted-media"
+                                        allowfullscreen>
+                                </iframe>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
 			</div>
 		</div>
 	</div>
