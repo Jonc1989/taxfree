@@ -56,6 +56,17 @@
       margin-right: 0px;
     }
   }
+  .menu-container {
+    position: relative;
+  }
+  .progress-bar-wrap, .wall-left {
+    margin-bottom: 2rem;
+  }
+  #banner{
+    .left-side{
+      margin-bottom: 30px;
+    }
+  }
 }
 
 
@@ -67,9 +78,7 @@
   .modal-dialog {
     width: 900px;
   }
-  .menu-container {
-    position: absolute;
-  }
+
   .right-block{
     a{
       float: right;
@@ -82,8 +91,11 @@
 }
 
 @media (max-width: 991px) {
-  body{
-    //font-size: 12px;
+  .nav > li > a {
+    font-size: 12px;
+  }
+  .logo {
+    width: 12rem;
   }
 }
 // Large devices (desktops, 992px and up)
@@ -139,7 +151,7 @@
     font-size: 2.7rem;
   }
   .nav > li > a {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-right: 20px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -151,5 +163,12 @@
     .more-info{
       margin-top: 7rem;
     }
+  }
+
+  .roadmap-bg {
+    -webkit-background-size: 1950px;
+    -moz-background-size: 1950px;
+    -o-background-size: 1950px;
+    background-size: 1950px;
   }
 }

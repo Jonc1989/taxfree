@@ -18,3 +18,22 @@
 .blue-block{
   background-color: $color-dark-blue;
 }
+
+@media (min-width: 992px){
+  .roadmap-bg {
+    -webkit-background-size: 1200px;
+    -moz-background-size: 1200px;
+    -o-background-size: 1200px;
+    background-size: 1200px;
+  }
+}
+@media (min-width: 1200px) {
+  .roadmap-bg {
+
+
+    -webkit-background-size: 1950px;
+    -moz-background-size: 1950px;
+    -o-background-size: 1950px;
+    background-size: 1950px;
+  }
+}
