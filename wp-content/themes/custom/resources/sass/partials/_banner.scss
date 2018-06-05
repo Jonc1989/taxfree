@@ -101,3 +101,11 @@ iframe{
     margin-bottom: 3.5rem;
   }
 }
+.close {
+  color: white;
+  opacity: 1;
+}
+.close:focus, .close:hover {
+  color: white;
+  opacity: .7;
+}

@@ -22,7 +22,12 @@
 }
 .right-block{
   text-align: right;
-  img{
+  img, svg{
     height: 32px;
+  }
+  a:hover{
+    .st0{
+      fill:#6cb319;
+    }
   }
 }

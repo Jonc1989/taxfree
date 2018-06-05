@@ -103,19 +103,13 @@
                 <div class="modal fade" id="video" role="dialog">
                     <div class="modal-dialog">
 
-                        <!-- Modal content-->
-                        <div class="">
-
-                            <div class=""><button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <iframe src="https://www.youtube.com/embed/s7zY0A1DxMA"
-                                        frameborder="0"
-                                        allow="autoplay;
-                                        encrypted-media"
-                                        allowfullscreen>
-                                </iframe>
-                            </div>
-
-                        </div>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <iframe src="https://www.youtube.com/embed/s7zY0A1DxMA"
+                                frameborder="0"
+                                allow="autoplay;
+                                encrypted-media"
+                                allowfullscreen>
+                        </iframe>
 
                     </div>
                 </div>
