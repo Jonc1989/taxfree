@@ -3,14 +3,16 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     uglifycss = require('gulp-uglifycss'),
     concat = require('gulp-concat'),
-    plumber = require('gulp-plumber');
+    plumber = require('gulp-plumber'),
+    minify = require('gulp-minify');
 
 gulp.task('app-sass', function () {
     gulp.src([
         'resources/sass/style.scss'
     ])
         .pipe(plumber())
-        .pipe(sass({style: 'expanded'}))
+        .pipe(sass({ outputStyle: 'compressed' })) /* expanded */
+        //.pipe(minify())
         /*    .pipe(uglifycss())*/
         .pipe(gulp.dest(''))
 });
@@ -22,6 +24,7 @@ gulp.task('app-js', function () {
         .pipe(plumber())
         .pipe(concat('app.js'))
         /*.pipe(uglify())*/
+        .pipe(minify())
         .pipe(gulp.dest('resources/js/'))
 });
 

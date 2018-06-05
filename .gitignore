@@ -1,4 +1,5 @@
 .idea/
 wp-content/themes/custom/node_modules/
 wp-content/themes/custom/resources/js/app.js
+wp-content/themes/custom/resources/js/app-min.js
 wp-content/themes/custom/style.css

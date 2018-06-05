@@ -18,7 +18,13 @@
 .blue-block{
   background-color: $color-dark-blue;
 }
-
+.snjaga{
+  background: url(resources/images/bg4.png)no-repeat right top;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
 @media (min-width: 992px){
   .roadmap-bg {
     -webkit-background-size: 1200px;
@@ -29,8 +35,6 @@
 }
 @media (min-width: 1200px) {
   .roadmap-bg {
-
-
     -webkit-background-size: 1950px;
     -moz-background-size: 1950px;
     -o-background-size: 1950px;

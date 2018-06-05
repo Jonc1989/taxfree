@@ -109,7 +109,6 @@ function checkCounter() {
     });
 }
 
-
 $( document ).ready( function(){
     checkCounter();
 });

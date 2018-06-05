@@ -106,8 +106,7 @@
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <iframe src="https://www.youtube.com/embed/s7zY0A1DxMA"
                                 frameborder="0"
-                                allow="autoplay;
-                                encrypted-media"
+                                allow="autoplay;encrypted-media"
                                 allowfullscreen>
                         </iframe>
 

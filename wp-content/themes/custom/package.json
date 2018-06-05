@@ -2,6 +2,7 @@
   "devDependencies": {
     "gulp": "latest",
     "gulp-concat": "latest",
+    "gulp-minify": "^2.1.0",
     "gulp-plumber": "^1.1.0",
     "gulp-sass": "latest",
     "gulp-uglify": "latest",
