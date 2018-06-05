@@ -12,6 +12,7 @@
   background-size: cover;
   .shadow{
     box-shadow: 0px 18px 17px 0 rgba(84, 84, 84, 0.07), 0 0 17px 0 rgba(84, 84, 84, 0.08);
+    height: 100%;
   }
   p{
     color: $text-color;
@@ -32,9 +33,10 @@
 .post-wrap{
   margin-bottom: 4rem;
   height: 23rem;
-  .center-horizontaly{
-    height: 100%;
-  }
+  //.center-horizontaly{
+  //  height: 100%;
+  //}
+
 }
 
 .post-number{

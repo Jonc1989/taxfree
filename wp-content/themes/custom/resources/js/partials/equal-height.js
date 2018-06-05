@@ -26,9 +26,10 @@ get_team_members = function ( more ) {
             .addClass('more')
     }
 };
-//
-// jQuery(document).ready(function () {
-//     equalheight('.team-member');
+
+jQuery(document).ready(function () {
+    equalheight('.post-wrap');
+    equalheight('.team-member');
 //     var height = jQuery('.team-member').eq(0).css( 'height' );
 //     jQuery('.team-member').css( 'height', height );
 //
@@ -37,7 +38,8 @@ get_team_members = function ( more ) {
 //         var more = jQuery(this).hasClass('more');
 //         get_team_members(more);
 //     });
-// });
-// jQuery( window ).resize(function() {
-//     equalheight('.team-member');
-// });
+});
+jQuery( window ).resize(function() {
+    equalheight('.post-wrap');
+    equalheight('.team-member');
+});

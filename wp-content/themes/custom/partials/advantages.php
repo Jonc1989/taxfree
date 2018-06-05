@@ -1,8 +1,8 @@
 <div id="advantages" class="col-xs-12 clear-pads">
 
     <div class="container">
-        <h1 class="title white text-center">преимущество инновационной
-            системы Tax Free</h1>
+        <h1 class="title white text-center"><div class="inline">преимущество инновационной</div>
+            <div class="inline">системы Tax Free</div> </h1>
         <p class="light-blue text-center">Используйте весь потенциал возврата НДC</p>
         <div class="col-xs-12 clear-pads info">
             <div class="col-md-3 col-sm-6 col-xs-12 text-center item">

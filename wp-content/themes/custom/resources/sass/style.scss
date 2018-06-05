@@ -130,11 +130,17 @@ img{
 .h1, .h2, .h3, h1, h2, h3 {
   margin-top: 0;
   margin-bottom: 0;
+  word-break: break-all;
 }
 .counter-wrap p{
   font-size: 1.2rem;
 }
-
+.title, .post-wrap h3, button{
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
 
 @import "responsive/_lg";
 @import "responsive/_md";
