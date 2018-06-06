@@ -26,6 +26,13 @@
   .title{
     font-size: 28px;
   }
+  .progress-bar-wrap{
+    .inline{
+      display: block;
+      float: none !important;
+      margin-bottom: 5px;
+    }
+  }
 }
 
 @media (max-width: 767px){

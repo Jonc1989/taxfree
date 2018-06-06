@@ -1,4 +1,5 @@
 #questions{
+  padding-top: 12rem;
   background-color: $color-dark-blue;
   .green-bg{
     padding-top: 6rem;
@@ -27,7 +28,7 @@
 .question-title{
   padding-top: 2.7rem;
   padding-bottom: 2.7rem;
-
+  font-weight: bold;
   font-size: 1.8rem;
   display: inline-block;
 }

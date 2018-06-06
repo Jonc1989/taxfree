@@ -1,7 +1,7 @@
-<div class="col-md-12 col-sm-12 col-xs-12 clear-pads" id="team">
+<div class="col-md-12 col-sm-12 col-xs-12 clear-pads blue-border-top" id="team">
 
     <div class="container">
-        <h1 class="title white text-center"><?php echo __( 'Наша команда', 'preico' ) ?></h1>
+        <h1 class="title white text-center"><?php echo __( 'Наша команда', 'taxfree' ) ?></h1>
         <?php
         $args = array(
             'post_type'      => 'team',

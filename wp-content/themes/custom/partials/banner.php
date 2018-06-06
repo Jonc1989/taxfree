@@ -17,12 +17,11 @@
 
 	<div class="container">
 		<div class="col-md-6 col-sm-6 left-side">
-			<h1 class="title">Tax Free Coin</h1>
-			<p class="wall-left">Децентрализованная tах free
-				платформа на blockchain</p>
+			<h1 class="title"><?php echo __( 'Tax Free Coin', 'taxfree' ) ?></h1>
+			<p class="wall-left"><?php echo __( 'Децентрализованная tах free платформа на blockchain', 'taxfree' ) ?></p>
 
-			<div class="inline soft-cap">SoftCap 250,000$</div>
-			<div class="inline soft-cap pull-right">SoftCap 250,000$</div>
+			<div class="inline soft-cap"><?php echo __( 'SoftCap', 'taxfree' ) ?> 250,000$</div>
+			<div class="inline soft-cap pull-right"><?php echo __( 'SoftCap', 'taxfree' ) ?> 250,000$</div>
 
 			<div class="col-xs-12 clear-pads progress-bar-wrap">
 				<div class="progress">
@@ -30,41 +29,42 @@
 					<div class="progress-bar darker-blue-bg" style="width: 20%;"></div>
 					<div class="progress-bar darkest-blue-bg" style="width: 20%;"></div>
 				</div>
-				<div class="inline">1TFC=0.01$ </div>
-				<div class="inline pull-right">Current discount: 75% from PRE ICO base price</div>
+				<div class="inline">1 <?php echo __( 'TFC', 'taxfree' ) ?> = 0.01$ </div>
+				<div class="inline pull-right"><?php echo __( 'Current discount', 'taxfree' ) ?>: 75% <?php echo __( 'from PRE ICO base price', 'taxfree' ) ?></div>
 			</div>
 
 
 			<div class="col-xs-12 clear-pads">
-				<div class="payemnt_method">Payemnt method</div>
+				<div class="payemnt_method"><?php echo __( 'Payemnt method', 'taxfree' ) ?></div>
 				<div class="inline eth"><img src="<?php bloginfo('template_directory');?>/resources/images/svg/eth.svg" alt="eth"> </div>
 				<div class="blue-line"></div>
 
 			</div>
 
-			<a href="" ><button class="full-width green-bg">Get Tokens ETH</button></a>
+			<a href="" ><button class="full-width green-bg"><?php echo __( 'Get Tokens', 'taxfree' ) ?></button></a>
 		</div>
 		<div class="col-md-6 col-sm-6 right-side">
 			<div class="col-md-12 text-center timer clear-padscd ">
-				<p class="uppercase">Pre-iCO Bonus (75% discount) ends in</p>
+				<p class="uppercase"><?php echo __( 'PRE-ICO Bonus', 'taxfree' ) ?> ( 75% <?php echo __( 'discount', 'taxfree' ) ?> )
+					<?php echo __( 'ends in', 'taxfree' ) ?></p>
 
 
 				<div class="counter-wrap col-xs-12 clear-pads">
 					<div class="days inline col-xs-3 clear-pads">
 						<div class="counter-number"></div>
-						<div class="counter-text">Days</div>
+						<div class="counter-text"><?php echo __( 'Days', 'taxfree' ) ?></div>
 					</div>
 					<div class="hours inline col-xs-3 clear-pads">
 						<div class="counter-number"></div>
-						<div class="counter-text">Hours</div>
+						<div class="counter-text"><?php echo __( 'Hours', 'taxfree' ) ?></div>
 					</div>
 					<div class="minutes inline col-xs-3 clear-pads">
 						<div class="counter-number"></div>
-						<div class="counter-text">Minutes</div>
+						<div class="counter-text"><?php echo __( 'Minutes', 'taxfree' ) ?></div>
 					</div>
 					<div class="seconds inline col-xs-3 clear-pads">
 						<div class="counter-number"></div>
-						<div class="counter-text">Seconds</div>
+						<div class="counter-text"><?php echo __( 'Seconds', 'taxfree' ) ?></div>
 					</div>
 				</div>
 

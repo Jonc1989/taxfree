@@ -1,7 +1,7 @@
-<div class="col-xs-12 clear-pads blue-block">
+<div class="col-xs-12 clear-pads blue-block blue-border-top">
 	<div class="col-xs-12 clear-pads snjaga">
 		
-		<h1 class="title white text-center">Дорожная карта</h1>
+		<h1 class="title white text-center"><?php echo __( 'Дорожная карта', 'taxfree' ) ?></h1>
 		<div class="col-xs-12 clear-pads roadmap-bg">
 			<div id="roadmap" class="col-xs-12 clear-pads">
 				<!--            <div class="container clear-pads">-->

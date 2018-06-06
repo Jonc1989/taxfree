@@ -38,10 +38,9 @@ a:focus, a:hover {
   width: 100%;
 }
 .title{
-  //padding-top: 5rem;
   padding-bottom: 3.5rem;
   font-size: 32px;
-  font-weight: 800;
+  font-weight: 700;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.41;
@@ -127,6 +126,9 @@ img{
   @include transition( transform, .2s, ease-out );
 }
 
+.blue-border-top{
+  border-top: solid 1px $color-blue;
+}
 .h1, .h2, .h3, h1, h2, h3 {
   margin-top: 0;
   margin-bottom: 0;

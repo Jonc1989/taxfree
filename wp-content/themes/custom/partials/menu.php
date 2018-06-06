@@ -30,7 +30,7 @@
                             <li><a href="<?php echo $item->url; ?>"><?php echo $item->title; ?></a></li>
                         <?php } ?>
 
-                        <li><a href="<?php echo get_site_url(); ?>">Join PRE-ICO</a></li>
+                        <li><a href="<?php echo get_site_url(); ?>"><?php echo __( 'Join', 'taxfree' ) ?> <?php echo __( 'PRE-ICO', 'taxfree' ) ?></a></li>
 
                         <li>
                             <?php

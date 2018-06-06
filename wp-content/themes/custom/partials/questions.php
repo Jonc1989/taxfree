@@ -1,7 +1,7 @@
-<div class="col-md-12 col-sm-12 col-xs-12 clear-pads" id="questions">
+<div class="col-md-12 col-sm-12 col-xs-12 clear-pads blue-border-top" id="questions">
 
     <div class="container">
-        <h1 class="title white text-center">Самые частые вопросы</h1>
+        <h1 class="title white text-center"><?php echo __( 'Самые частые вопросы', 'taxfree' ) ?></h1>
         <div class="question-wrap col-xs-12">
             <?php
             $args = array(
@@ -39,10 +39,10 @@
 
     </div>
     <div class="col-md-12 col-sm-12 col-xs-12 clear-pads green-bg text-center">
-        <p class="first-title white">Принять участие в революционном проекте</p>
-        <p class="second-title white">Current discount: 75% from PRE ICO base price</p>
+        <p class="first-title white"><?php echo __( 'Принять участие в революционном проекте', 'taxfree' ) ?></p>
+        <p class="second-title white"><?php echo __( 'Current discount', 'taxfree' ) ?>: 75% <?php echo __( 'from PRE ICO base price', 'taxfree' ) ?></p>
         <a href="">
-            <button class="white-bg bold">Get my TFC</button>
+            <button class="white-bg bold"><?php echo __( 'Get my TFC', 'taxfree' ) ?></button>
         </a>
 
     </div>
