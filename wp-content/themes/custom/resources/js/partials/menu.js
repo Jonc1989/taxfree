@@ -35,11 +35,11 @@ var stickyNav = function(){
     if (scrollTop > lastScrollTop || scrollTop < 10){
         // downscroll code
         $('.menu-container').removeClass('sticky');
-        $('body').removeClass('navbar-placeholder');
+        //$('.navbar-placeholder').removeClass('navbar-active');
     } else {
         // upscroll code
         $('.menu-container').addClass('sticky');
-        $('body').addClass('navbar-placeholder');
+        //$('.navbar-placeholder').addClass('navbar-active');
     }
     lastScrollTop = scrollTop;
 

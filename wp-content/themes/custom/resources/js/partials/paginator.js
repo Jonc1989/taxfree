@@ -24,7 +24,7 @@ jQuery(function($) {
             success: function(data) {
                 if (data) {
                     $('#post-container').empty().append(data);
-                    reorganize_pagination(currpage, maxpages);
+                    //reorganize_pagination(currpage, maxpages);
                 } else {}
             }
         });

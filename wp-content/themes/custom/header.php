@@ -7,13 +7,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><?php echo get_bloginfo( 'name' ); ?></title>
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/resources/vendor/bootstrap.min.css">
 	<link href="<?php bloginfo('template_directory');?>/style.css" rel="stylesheet">
 
 	<?php wp_head();?>
 </head>
 <body>
-
+<!--<div class="col-xs-12 navbar-placeholder"></div>-->
 <script>
 	var ajaxurl  = '<?php echo get_site_url(); ?>/wp-admin/admin-ajax.php';
 	var domain  = '<?php echo get_site_url(); ?>';
