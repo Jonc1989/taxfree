@@ -5,8 +5,8 @@ equalheight = function(e) {
     var t, a = 0,
         i = 0,
         o = new Array;
-    jQuery(e).each(function() {
-        if (t = jQuery(this), jQuery(t).height("auto"), topPostion = t.position().top, i != topPostion) {
+    $(e).each(function() {
+        if (t = $(this), $(t).height("auto"), topPostion = t.position().top, i != topPostion) {
             for (currentDiv = 0; currentDiv < o.length; currentDiv++) o[currentDiv].height(a);
             o.length = 0, i = topPostion, a = t.height(), o.push(t)
         } else o.push(t), a = a < t.height() ? t.height() : a;
@@ -17,19 +17,33 @@ equalheight = function(e) {
 get_team_members = function ( more ) {
 
     if(more){
-        jQuery('.team-member').slice(3).slideToggle( 400 );
-        jQuery('.more-btn').removeClass('more')
+        $('.team-member').slice(3).slideToggle( 400 );
+        $('.more-btn').removeClass('more')
         equalheight('.team-member');
     }else{
-        jQuery('.team-member').slice(3).slideToggle( 400 );
-        jQuery('.more-btn')
+        $('.team-member').slice(3).slideToggle( 400 );
+        $('.more-btn')
             .addClass('more')
     }
 };
 
-jQuery(document).ready(function () {
+$(document).ready(function () {
     equalheight('.post-wrap');
     equalheight('.team-member');
+
+    setTimeout(function () {
+        $('.progress-bar.green-bg').css( 'width', '60%' );
+        $('.progress-bar.darker-blue-bg').css( 'width', '20%' );
+        $('.progress-bar.darkest-blue-bg').css( 'width', '20%' );
+    }, 100 );
+
+
+
+
+
+
+
+
 //     var height = jQuery('.team-member').eq(0).css( 'height' );
 //     jQuery('.team-member').css( 'height', height );
 //
@@ -39,7 +53,7 @@ jQuery(document).ready(function () {
 //         get_team_members(more);
 //     });
 });
-jQuery( window ).resize(function() {
+$( window ).resize(function() {
     equalheight('.post-wrap');
     equalheight('.team-member');
 });

@@ -25,9 +25,9 @@
 
 			<div class="col-xs-12 clear-pads progress-bar-wrap">
 				<div class="progress">
-					<div class="progress-bar green-bg" role="progressbar" style="width: 60%;"></div>
-					<div class="progress-bar darker-blue-bg" style="width: 20%;"></div>
-					<div class="progress-bar darkest-blue-bg" style="width: 20%;"></div>
+					<div class="progress-bar green-bg" role="progressbar"></div>
+					<div class="progress-bar darker-blue-bg"></div>
+					<div class="progress-bar darkest-blue-bg"></div>
 				</div>
 				<div class="inline">1 <?php echo __( 'TFC', 'taxfree' ) ?> = 0.01$ </div>
 				<div class="inline pull-right"><?php echo __( 'Current discount', 'taxfree' ) ?>: 75% <?php echo __( 'from PRE ICO base price', 'taxfree' ) ?></div>

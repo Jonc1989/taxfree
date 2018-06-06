@@ -75,7 +75,7 @@ function counter() {
 	);
 	add_settings_field(
 		'date_setup',
-		'Counter end date',
+		'Counter end date <br>(yyyy-MM-dd HH:mm:ss)',
 		'input_callback',
 		'general',
 		'counter_section',

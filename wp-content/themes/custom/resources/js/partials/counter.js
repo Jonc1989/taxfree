@@ -19,7 +19,7 @@ function checkCounter() {
             var date = null;
             if( response != '' ){
 
-                var countDownDate = new Date( response ).getTime();
+                var countDownDate = new Date(response.replace(/\s+/g, 'T').concat('.000+03:00')).getTime();
 
                 // Update the count down every 1 second
                 var x = setInterval(function() {
