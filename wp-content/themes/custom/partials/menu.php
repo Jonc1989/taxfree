@@ -40,10 +40,15 @@
                             <div class="dropdown">
                                 <button class="dropdown-toggle" type="button" data-toggle="dropdown">
                                     <span class="locale"><?php echo qtranxf_getLanguage(); ?></span>
-                                    <span class="caret"></span></button>
+                                    <span class="caret">
+                                        <img src="<?php bloginfo('template_directory');?>/resources/images/caret.png">
+                                    </span>
+                                </button>
                                 <ul class="dropdown-menu">
                                     <?php foreach(qtrans_getSortedLanguages() as $language) { ?>
-                                        <li><a href="<?php echo qtrans_convertURL($current_url, $language, false, true)?>"><?php echo strtoupper( $language ); ?></a></li>
+                                        <?php if( qtranxf_getLanguage() !== $language ){ ?>
+                                            <li><a href="<?php echo qtrans_convertURL($current_url, $language, false, true)?>"><?php echo strtoupper( $language ); ?></a></li>
+                                        <?php }?>
                                     <?php } ?>
                                 </ul>
                             </div>
