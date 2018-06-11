@@ -2,17 +2,64 @@
   padding-top: 12rem;
   height: 750px;
   //background-color: $color-dark-blue;
+  .container{
+    position: relative;
+  }
   .item{
-    width: 10%;
+    width: 9%;
     display: inline-block;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.429;
+    position: absolute;
+    &.one{
+      top: 145px;
+    }
+    &.two{
+      top: 330px;
+      left: 10%;
+    }
+    &.three{
+      top: 180px;
+      left: 17%;
+    }
+    &.four{
+      top: 290px;
+      left: 27%;
+    }
+    &.five{
+      top: 75px;
+      left: 36%;
+    }
+    &.six{
+      top: 165px;
+      left: 47%;
+    }
+    &.seven{
+      top: 30px;
+      left: 54%;
+    }
+    &.eight{
+      top: 177px;
+      left: 61%;
+    }
+    &.nine{
+      top: 15px;
+      left: 76%;
+    }
+    &.ten{
+      top: 165px;
+      right: 0%;
+    }
   }
 }
 .roadmap-bg{
    background: url(resources/images/road_map_bg.png)no-repeat center top;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
+   -webkit-background-size: contain;
+   -moz-background-size: contain;
+   -o-background-size: contain;
+   background-size: contain;
 
  }
 .blue-block{
@@ -26,14 +73,18 @@
   -o-background-size: contain;
   background-size: contain;
 }
-@media (min-width: 992px){
-  .roadmap-bg {
-    -webkit-background-size: 1200px;
-    -moz-background-size: 1200px;
-    -o-background-size: 1200px;
-    background-size: 1200px;
-  }
+
+.item{
+
 }
+//@media (min-width: 992px){
+//  .roadmap-bg {
+//    -webkit-background-size: 1200px;
+//    -moz-background-size: 1200px;
+//    -o-background-size: 1200px;
+//    background-size: 1200px;
+//  }
+//}
 @media (min-width: 1200px) {
   .roadmap-bg {
     -webkit-background-size: 1950px;
@@ -42,3 +93,4 @@
     background-size: 1950px;
   }
 }
+
