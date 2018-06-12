@@ -1,67 +1,62 @@
 #roadmap{
   padding-top: 12rem;
-  height: 750px;
-  //background-color: $color-dark-blue;
+  height: 600px;
+  //.item{
+  //  font-size: 11px;
+  //  &.one{
+  //    top: -3px;
+  //    left: 8%;
+  //  }
+  //  &.two{
+  //    top: 127px;
+  //    left: 16.5%;
+  //  }
+  //  &.three{
+  //    top: 4px;
+  //    left: 22%;
+  //  }
+  //  &.four{
+  //    top: 104px;
+  //    left: 30%;
+  //  }
+  //  &.five{
+  //    top: -51px;
+  //    left: 37%;
+  //  }
+  //  &.six{
+  //    top: 45px;
+  //    left: 45%;
+  //  }
+  //  &.seven{
+  //    top: -80px;
+  //    left: 51%;
+  //  }
+  //  &.eight{
+  //    top: 47px;
+  //    left: 57%;
+  //  }
+  //  &.nine{
+  //    top: -87px;
+  //    left: 67%;
+  //  }
+  //  &.ten{
+  //    top: 39px;
+  //    right: 12%;
+  //  }
+  //}
+
   .container{
     position: relative;
   }
-  .item{
-    width: 9%;
-    display: inline-block;
-    font-size: 12px;
+  .item {
+    width: unset;
+    display: block;
     color: white;
     text-transform: uppercase;
     line-height: 1.429;
-    position: absolute;
-    &.one{
-      top: 145px;
-    }
-    &.two{
-      top: 330px;
-      left: 10%;
-    }
-    &.three{
-      top: 180px;
-      left: 17%;
-    }
-    &.four{
-      top: 290px;
-      left: 27%;
-    }
-    &.five{
-      top: 75px;
-      left: 36%;
-    }
-    &.six{
-      top: 165px;
-      left: 47%;
-    }
-    &.seven{
-      top: 30px;
-      left: 54%;
-    }
-    &.eight{
-      top: 177px;
-      left: 61%;
-    }
-    &.nine{
-      top: 15px;
-      left: 76%;
-    }
-    &.ten{
-      top: 165px;
-      right: 0%;
-    }
   }
 }
-.roadmap-bg{
-   background: url(resources/images/road_map_bg.png)no-repeat center top;
-   -webkit-background-size: contain;
-   -moz-background-size: contain;
-   -o-background-size: contain;
-   background-size: contain;
 
- }
 .blue-block{
   background-color: $color-dark-blue;
   padding-top: 130px;
@@ -74,23 +69,252 @@
   background-size: contain;
 }
 
-.item{
+@media (max-width: 767px){
+  .blue-block {
+    padding-top: 60px;
+  }
+  #roadmap {
+    padding-top: 5px;
+    height: 600px;
 
+    background: url(resources/images/mobile-roadmap.png) no-repeat 30px center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+
+    .item{
+      margin-bottom: 37px;
+      padding-left: 80px;
+    }
+  }
 }
-//@media (min-width: 992px){
-//  .roadmap-bg {
-//    -webkit-background-size: 1200px;
-//    -moz-background-size: 1200px;
-//    -o-background-size: 1200px;
-//    background-size: 1200px;
-//  }
-//}
-@media (min-width: 1200px) {
+@media (max-width: 600px){
+  #roadmap {
+    height: 540px;
+    .item{
+      font-size: 10px;
+    }
+  }
+}
+@media (min-width: 768px){
+  .roadmap-bg{
+    background: url(resources/images/road_map_bg2.png)no-repeat center top;
+    -webkit-background-size: 992px;
+    -moz-background-size: 992px;
+    -o-background-size: 992px;
+    background-size: 992px;
+  }
+  #roadmap{
+    height: 450px;
+    .item {
+      width: 9%;
+      display: inline-block;
+      position: absolute;
+      text-align: center;
+      font-size: 11px;
+      &.one{
+        top: -3px;
+        left: 8%;
+      }
+      &.two{
+        top: 127px;
+        left: 16.5%;
+      }
+      &.three{
+        top: 4px;
+        left: 22%;
+      }
+      &.four{
+        top: 104px;
+        left: 30%;
+      }
+      &.five{
+        top: -51px;
+        left: 37%;
+      }
+      &.six{
+        top: 45px;
+        left: 45%;
+      }
+      &.seven{
+        top: -80px;
+        left: 51%;
+      }
+      &.eight{
+        top: 47px;
+        left: 57%;
+      }
+      &.nine{
+        top: -87px;
+        left: 67%;
+      }
+      &.ten{
+        top: 39px;
+        right: 12%;
+      }
+    }
+  }
+}
+@media (min-width: 992px){
+  .roadmap-bg {
+    -webkit-background-size: 1200px;
+    -moz-background-size: 1200px;
+    -o-background-size: 1200px;
+    background-size: 1200px;
+  }
+  #roadmap{
+    height: 450px;
+    .item{
+      font-size: 11px;
+      &.one{
+        top: 33px;
+        left: 10%;
+      }
+      &.two{
+        top: 167px;
+        left: 18.5%;
+      }
+      &.three{
+        top: 48px;
+        left: 24%;
+      }
+      &.four{
+        top: 143px;
+        left: 31%;
+      }
+      &.five{
+        top: -21px;
+        left: 37%;
+      }
+      &.six{
+        top: 75px;
+        left: 45%;
+      }
+      &.seven{
+        top: -50px;
+        left: 51%;
+      }
+      &.eight{
+        top: 76px;
+        left: 57%;
+      }
+      &.nine{
+        top: -61px;
+        left: 66%;
+      }
+      &.ten{
+        top: 62px;
+        right: 14%;
+      }
+    }
+  }
+}
+@media (min-width: 1200px){
+  .roadmap-bg {
+    -webkit-background-size: 1400px;
+    -moz-background-size: 1400px;
+    -o-background-size: 1400px;
+    background-size: 1400px;
+  }
+  #roadmap{
+    height: 500px;
+    .item{
+      &.one{
+        top: 63px;
+        left: 13%;
+      }
+      &.two{
+        top: 216px;
+        left: 20%;
+      }
+      &.three{
+        top: 88px;
+        left: 25%;
+      }
+      &.four{
+        top: 186px;
+        left: 33%;
+      }
+      &.five{
+        top: 0px;
+        left: 39%;
+      }
+      &.six{
+        top: 100px;
+        left: 45%;
+      }
+      &.seven{
+        top: -28px;
+        left: 51%;
+      }
+      &.eight{
+        top: 110px;
+        left: 57%;
+      }
+      &.nine{
+        top: -35px;
+        left: 67%;
+      }
+      &.ten{
+        top: 94px;
+        right: 13%;
+      }
+    }
+  }
+}
+@media (min-width: 1360px) {
   .roadmap-bg {
     -webkit-background-size: 1950px;
     -moz-background-size: 1950px;
     -o-background-size: 1950px;
     background-size: 1950px;
+  }
+  #roadmap{
+    height: 650px;
+    .item{
+      font-size: 12px;
+      &.one{
+        top: 145px;
+        left: -2%;
+      }
+      &.two{
+        top: 330px;
+        left: 9%;
+      }
+      &.three{
+        top: 180px;
+        left: 16%;
+      }
+      &.four{
+        top: 290px;
+        left: 26%;
+      }
+      &.five{
+        top: 75px;
+        left: 34%;
+      }
+      &.six{
+        top: 165px;
+        left: 45%;
+      }
+      &.seven{
+        top: 30px;
+        left: 52%;
+      }
+      &.eight{
+        top: 177px;
+        left: 61%;
+      }
+      &.nine{
+        top: 15px;
+        left: 73%;
+      }
+      &.ten{
+        top: 165px;
+        right: 3%;
+      }
+    }
   }
 }
 
