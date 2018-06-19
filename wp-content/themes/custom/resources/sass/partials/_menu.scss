@@ -2,14 +2,10 @@
   position: absolute;
   padding-top: 4rem;
   &.sticky{
-    //padding-top: 2rem;
+    padding-top: 2rem;
   }
   background-color: #221eb0;
-  transition: padding-top 0.4s linear;
-  -moz-transition: padding-top 0.4s linear; /* Firefox 4 */
-  -webkit-transition: padding-top 0.4s linear; /* Safari and Chrome */
-  -o-transition: padding-top 0.4s linear; /* Opera */
-  -ms-transition: padding-top 0.4s linear; /* Explorer 10 */
+  @include transition(padding-top, 0.2s, linear);
 
   z-index: 1;
   top: 0px;

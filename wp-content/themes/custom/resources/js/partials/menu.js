@@ -32,7 +32,7 @@ var stickyNav = function(){
 
     var scrollTop = $(window).scrollTop();
 
-    if (scrollTop > lastScrollTop || scrollTop < 10){
+    if (scrollTop > lastScrollTop || scrollTop < 30){
         // downscroll code
         $('.menu-container').removeClass('sticky');
         //$('.navbar-placeholder').removeClass('navbar-active');
