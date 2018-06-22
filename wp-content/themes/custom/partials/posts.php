@@ -9,7 +9,7 @@
             'post_status'    => 'publish',
             'posts_per_page' => '-1',
             'orderby'        => 'post_date',
-            'order'          => 'DESC'
+            'order'          => 'ASC'
         );
 
         $posts = new WP_Query( $args );
@@ -36,11 +36,9 @@
     
     
                             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 text-block">
-                                <h3><?php the_title(); ?></h3>
-
+                                <h4 class="bold"><?php the_title(); ?></h4>
                             </div>
                             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 text-block">
-
                                 <p><?php the_content(); ?></p>
                             </div>
                         

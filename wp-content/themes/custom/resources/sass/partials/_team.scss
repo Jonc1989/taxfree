@@ -1,7 +1,11 @@
 #team{
   padding-top: 120px;
   padding-bottom: 130px;
-
+  background: url(resources/images/bg5.png)no-repeat center top;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
   .team-member{
     height: 250px;
     text-align: center;
@@ -15,14 +19,16 @@
     }
     h1{
       margin-bottom: 18px;
-      //font-family: 'Montserrat-Hairline', sans-serif;
     }
     p{
-      //font-family: 'Montserrat-Hairline', sans-serif;
       font-size: 14px;
       line-height: 1.56;
-
       text-align: center;
+    }
+    .green{
+      p{
+        font-size: 12px;
+      }
     }
   }
   //.more{

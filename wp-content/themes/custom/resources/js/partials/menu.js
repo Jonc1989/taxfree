@@ -32,7 +32,7 @@ var stickyNav = function(){
 
     var scrollTop = $(window).scrollTop();
 
-    if (scrollTop > lastScrollTop || scrollTop < 10){
+    if (scrollTop > lastScrollTop || scrollTop < 30){
         // downscroll code
         $('.menu-container').removeClass('sticky');
         //$('.navbar-placeholder').removeClass('navbar-active');
@@ -69,10 +69,11 @@ jQuery( document ).ready( function(){
         stickyNav();
     });
 
-    // var links = jQuery( '.nav li a' );
-    // animateScroll( links[ 1 ] );
-    // animateScroll( links[ 3 ] );
-    // animateScroll( links[ 5 ] );
+    var links = jQuery( '.nav li a' );
+    animateScroll( links[ 0 ] );
+    animateScroll( links[ 1 ] );
+    animateScroll( links[ 2 ] );
+    animateScroll( links[ 3 ] );
     //
     //
     //

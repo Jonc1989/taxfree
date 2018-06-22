@@ -1,19 +1,37 @@
 .menu-container{
   position: absolute;
   padding-top: 4rem;
+  padding-bottom: 1rem;
   &.sticky{
-    //padding-top: 2rem;
+    padding-top: 2rem;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    border-top: 0;
+    background-color: #100c87;
+    //border-bottom: 1px solid gray;
+    -webkit-animation: navShow .4s;
+    -moz-animation: navShow .4s;
+    -ms-animation: navShow .4s;
+    -o-animation: navShow .4s;
+    animation: navShow .4s;
   }
   background-color: #221eb0;
-  transition: padding-top 0.4s linear;
-  -moz-transition: padding-top 0.4s linear; /* Firefox 4 */
-  -webkit-transition: padding-top 0.4s linear; /* Safari and Chrome */
-  -o-transition: padding-top 0.4s linear; /* Opera */
-  -ms-transition: padding-top 0.4s linear; /* Explorer 10 */
+  @include transition(background-color, .2s, linear);
 
   z-index: 1;
   top: 0px;
   width: 100%;
+  ul{
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+  }
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    //border-color: transparent;
+  }
 }
 .logo{
   padding: 0;
@@ -37,20 +55,25 @@
 .navbar-default .navbar-nav>li>a {
   color: white;
 }
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-  /*color: #333;*/
-}
+
 .nav>li>a {
   font-weight: bold;
   padding-top: 10px;
-  padding-right: 10px;
+  padding-right: 8px;
   padding-bottom: 10px;
-  padding-left: 10px;
+  padding-left: 8px;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   color: $color-green;
 }
 
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+  color: white;
+  transition: color .3s;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+  color: $color-green;
+}
 @-webkit-keyframes navShow {
   0% {
     transform: translate3d(0,-100px,0);
@@ -137,26 +160,15 @@
 .navbar-active{
   //margin-top: 30px;
 }
-.sticky {
-  position: fixed;
-  width: 100%;
-  padding-bottom: 10px;
-  left: 0;
-  top: 0;
-  right: 0;
-  z-index: 1000;
-  border-top: 0;
-  background: $color-dark-blue;
-  border-bottom: 1px solid gray;
-  -webkit-animation: navShow .4s;
-  -moz-animation: navShow .4s;
-  -ms-animation: navShow .4s;
-  -o-animation: navShow .4s;
-  animation: navShow .4s;
-
-  .navbar-default{
-    background: $color-dark-blue;
-  }
+.navbar-toggle {
+  margin-top: 0px;
+  margin-right: 0px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: $color-lightest-blue;
 }
 .nav{
   padding-top: 10px;
@@ -164,9 +176,8 @@
 .nav.navbar-nav{
   li:nth-of-type(6){
     a{
-      background-color: $color-green;
+      transition: color .3s;
       border-radius: 3px;
-      padding: 10px 21px;
     }
     a:hover{
       color: white;

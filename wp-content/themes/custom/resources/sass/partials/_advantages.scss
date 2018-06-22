@@ -1,7 +1,21 @@
 #advantages{
   background-color: $color-dark-blue;
-  padding-top: 12rem;
+  .light-blue{
+    color: #726df1;
+  }
+}
+
+.advantages-wrap{
+
   padding-bottom: 12rem;
+  background: url(resources/images/bg44.png)no-repeat center top;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  .container{
+    padding-top: 12rem;
+  }
 }
 #advantages{
   .img-wrap{
@@ -30,13 +44,18 @@
   }
   .cloud_white, .fast_white, .sum_white, .procents_white{
     display: none;
+    opacity: 0;
   }
   .item:hover{
     .cloud, .fast, .sum, .procents{
       display: none;
+      opacity: 0;
+      @include transition( opacity, 1s, ease-out );
     }
     .cloud_white, .fast_white, .sum_white, .procents_white{
       display: block;
+      opacity: 1;
+      @include transition( opacity, 1s, ease-out );
     }
   }
   .item{

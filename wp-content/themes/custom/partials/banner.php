@@ -1,16 +1,16 @@
 <div id="banner" class="col-xs-12 clear-pads white">
 
 	<ul id="scene" style="height: 100%;">
-		<li class="layer disable" id="l3" data-depth="0.4">
+		<li class="layer disable" id="l3" data-depth="0.20">
 			<img style="width: 100%; position: relative; display: inline-block" src="<?php bloginfo('template_url');?>/resources/images/parallax/layer_1.png"/>
 		</li>
-		<li class="layer disable" id="l1" data-depth="0.30">
+		<li class="layer disable" id="l1" data-depth="0.15">
 			<img style="width: 100%; position: relative; display: inline-block" src="<?php bloginfo('template_url');?>/resources/images/parallax/layer_2.png"/>
 		</li>
-		<li class="layer disable " data-depth="0.20" id="l2">
+		<li class="layer disable" id="l2" data-depth="0.10">
 			<img style="width: 100%; position: relative; display: inline-block" src="<?php bloginfo('template_url');?>/resources/images/parallax/layer_3.png"/>
 		</li>
-		<li class="layer disable " id="l4" data-depth="0.10">
+		<li class="layer disable " id="l4" data-depth="0.05">
 			<img style="width: 100%; position: relative; display: inline-block" src="<?php bloginfo('template_url');?>/resources/images/parallax/layer_4.png"/>
 		</li>
 	</ul>
@@ -51,19 +51,19 @@
 
 				<div class="counter-wrap col-xs-12 clear-pads">
 					<div class="days inline col-xs-3 clear-pads">
-						<div class="counter-number"></div>
+						<div class="counter-number bold"></div>
 						<div class="counter-text"><?php echo __( 'Days', 'taxfree' ) ?></div>
 					</div>
 					<div class="hours inline col-xs-3 clear-pads">
-						<div class="counter-number"></div>
+						<div class="counter-number bold"></div>
 						<div class="counter-text"><?php echo __( 'Hours', 'taxfree' ) ?></div>
 					</div>
 					<div class="minutes inline col-xs-3 clear-pads">
-						<div class="counter-number"></div>
+						<div class="counter-number bold"></div>
 						<div class="counter-text"><?php echo __( 'Minutes', 'taxfree' ) ?></div>
 					</div>
 					<div class="seconds inline col-xs-3 clear-pads">
-						<div class="counter-number"></div>
+						<div class="counter-number bold"></div>
 						<div class="counter-text"><?php echo __( 'Seconds', 'taxfree' ) ?></div>
 					</div>
 				</div>

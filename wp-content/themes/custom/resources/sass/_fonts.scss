@@ -25,17 +25,16 @@
 //
 //  src: url('resources/fonts/montserrat/Montserrat-Hairline.woff') format('woff');
 //}
-//
-//@font-face {
-//  font-family: 'Montserrat Bold';
-//  src: url('resources/fonts/montserrat/Montserrat-Bold.otf');
-//  src: url('resources/fonts/montserrat/montserrat-bold-webfont.eot');
-//  src: url('resources/fonts/montserrat/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype');
-//  src: url('resources/fonts/montserrat/montserrat-bold-webfont.svg#webfont') format('svg');
-//  src: url('resources/fonts/montserrat/montserrat-bold-webfont.ttf');
-//  src: url('resources/fonts/montserrat/montserrat-bold-webfont.woff') format('woff');
-//
-//}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('resources/fonts/montserrat/Montserrat-Bold.otf');
+  src: url('resources/fonts/montserrat/Montserrat-Bold.eot');
+  src: url('resources/fonts/montserrat/Montserrat-Bold?#iefix') format('embedded-opentype');
+  src: url('resources/fonts/montserrat/Montserrat-Bold.ttf');
+  src: url('resources/fonts/montserrat/Montserrat-Bold.woff') format('woff');
+
+}
 
 
 

@@ -1,5 +1,5 @@
 #questions{
-  padding-top: 12rem;
+
   background-color: $color-dark-blue;
   .green-bg{
     padding-top: 6rem;
@@ -15,6 +15,14 @@
       color: $color-dark;
     }
   }
+  .wrap{
+    padding-top: 12rem;
+    background: url(resources/images/bg6.png)no-repeat center top;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
 }
 .question-wrap{
   background-color: white;
@@ -28,7 +36,7 @@
 .question-title{
   padding-top: 2.7rem;
   padding-bottom: 2.7rem;
-  font-weight: bold;
+  font-family: 'Montserrat Bold', sans-serif;
   font-size: 1.8rem;
   display: inline-block;
 }

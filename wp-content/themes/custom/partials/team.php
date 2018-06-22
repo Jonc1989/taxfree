@@ -35,7 +35,7 @@
                         </div>
 
                     <?php } ?>
-                    <h4 class="white"><?php the_title(); ?></h4>
+                    <h4 class="bold white"><?php the_title(); ?></h4>
                     <div class="white"><?php the_excerpt(); ?></div>
                     <div class="green"><?php the_content(); ?></div>
                 </div>
@@ -77,7 +77,7 @@
                         </div>
 
                     <?php } ?>
-                    <h4 class="white"><?php the_title(); ?></h4>
+                    <h4 class="bold white"><?php the_title(); ?></h4>
                     <div class="white"><?php the_excerpt(); ?></div>
                     <div class="green"><?php the_content(); ?></div>
                 </div>

@@ -10,12 +10,14 @@ body, html {
   min-height: 100%;
 }
 body{
-  font-family: 'RobotoRegular', sans-serif;
+//  font-family: 'Montserrat-Regular', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 body > .container{
   position:relative;
   min-height:100%;
 }
+
 a, button {
    outline: 0;
    text-decoration: none;
@@ -38,6 +40,7 @@ a:focus, a:hover {
   width: 100%;
 }
 .title{
+  font-family: 'Montserrat Bold', sans-serif;
   padding-bottom: 3.5rem;
   font-size: 32px;
   font-weight: 700;
@@ -66,7 +69,7 @@ img{
   max-height: 100%;
 }
 .bold{
-  font-weight: bold;
+  font-family: 'Montserrat Bold', sans-serif;
 }
 .black{
   color: $color-black;
