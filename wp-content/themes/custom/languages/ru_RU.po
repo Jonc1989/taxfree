@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Preico\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-30 17:43+0300\n"
+"POT-Creation-Date: 2018-06-29 11:53+0000\n"
 "POT-Revision-Date: Mon Jul 25 2016 08:51:33 GMT+0700 (SE Asia Standard Time)"
 "\n"
-"PO-Revision-Date: 2018-06-06 10:44+0000\n"
+"PO-Revision-Date: 2018-07-05 06:38+0000\n"
 "Language-Team: Russian\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
 "n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
@@ -24,190 +24,186 @@ msgstr ""
 "Language: ru-RU\n"
 "X-Poedit-SearchPath-0: .."
 
-#: ../inc/admin/settings/settings.php:1136
-msgid "Header Type"
+#. Name of the template
+msgid "Main"
 msgstr ""
 
-#: ../404.php:43
-msgid "404"
-msgstr "404"
+#: partials/posts.php:3
+msgid "КАК ПОЛУЧИТЬ "
+msgstr ""
 
-msgid "agreement terms text"
-msgstr "i agree with the "
+#. Author of the theme
+msgid "Аноним"
+msgstr ""
 
-msgid "agreement terms link"
-msgstr "terms and conditions"
+#: partials/advantages.php:15
+msgid ""
+"Облачная электронная система\n"
+"                        которая не требует заполнение\n"
+"                        каких либо бумаг."
+msgstr "Система делает процесс Tax Free Shopping полностью цифровым."
 
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Add widgets here to appear in your sidebar."
+#: partials/advantages.php:26
+msgid ""
+"Tax Free Blockchain позволяет\n"
+"                        оплачивать туристу товар в\n"
+"                        системе Tax Free сразу без НДС."
+msgstr "Приложение позволит сканировать и оцифрововать чеки в любом магазине."
 
-msgid "Инвестировать в реальное предприятие"
-msgstr "Invest in a real enterprise"
+#: partials/advantages.php:50
+msgid ""
+"Вы получаете 100%\n"
+"                        возмещение НДС, без каких\n"
+"                        либо комиссий."
+msgstr ""
+"Tax Free Blockchain позволяет оплачивать туристу товар в системе Tax Free "
+"сразу без НДС."
 
-msgid "EUR"
-msgstr "EUR"
+#: partials/about.php:8
+msgid ""
+"Децентрализованная tax free маркет платформа\n"
+"                на blockchain ethereum с tax free сервисом,\n"
+"                на базе мобильного приложения."
+msgstr ""
+"Децентрализованное мобильное приложение с системой Tax Free и Busines Tax "
+"Free , на базе blockchain с использованием смарт-контрактов."
 
-msgid "Наша команда"
-msgstr "Our team"
-
-msgid "УЧАСТВОВАТЬ"
-msgstr "PARTICIPATE"
-
-msgid "Копровать"
-msgstr "Copy"
-
-msgid "Oткрить QR код"
-msgstr "Open QR code"
-
-msgid "Road map"
-msgstr "Road map"
-
-msgid "Преимущество"
-msgstr "Advantages"
-
-msgid "Page not found"
-msgstr "Page not found"
-
-msgid "Soft Cap"
-msgstr "Soft Cap"
-
-msgid "2000 ETH goal"
-msgstr "2000 ETH goal"
-
-msgid "White paper"
-msgstr "White paper"
-
-msgid "Выйти"
-msgstr "Logout"
-
-msgid "Личный кабинет"
-msgstr "Dashboard"
-
-msgid "Смотреть"
-msgstr "Watch"
-
-msgid "Название документа"
-msgstr "Document name"
-
-msgid "Действие"
-msgstr "Action"
-
-msgid "Ваш баланс"
-msgstr "Balance"
-
-msgid "Скидка"
-msgstr "Discount"
-
-msgid "Заработок ETH"
-msgstr "Earnings ETH"
-
-msgid "Status"
-msgstr "Status"
-
-msgid "Join"
-msgstr "Join"
-
-msgid "PRE-ICO"
-msgstr "PRE-ICO"
-
-msgid "Tax Free Coin"
-msgstr "Tax Free Coin"
-
-msgid "Децентрализованная tах free платформа на blockchain"
-msgstr "Децентрализованная tах free платформа на blockchain"
-
-msgid "SoftCap"
-msgstr "SoftCap"
-
-msgid "TFC"
-msgstr "TFC"
-
-msgid "Current discount"
-msgstr "Current discount"
-
-msgid "from PRE ICO base price"
-msgstr "from PRE ICO base price"
-
-msgid "Payemnt method"
-msgstr "Способ оплаты"
-
-msgid "Get Tokens"
-msgstr "Get Tokens"
-
-msgid "PRE-ICO Bonus"
-msgstr "PRE-ICO Bonus"
-
-msgid "discount"
-msgstr "discount"
-
-msgid "ends in"
-msgstr "ends in"
-
-msgid "Days"
-msgstr "Days"
-
-msgid "Hours"
-msgstr "Hours"
-
-msgid "Minutes"
-msgstr "Minutes"
-
-msgid "Seconds"
-msgstr "Seconds"
-
-msgid "ЧТО ТАКОЕ"
-msgstr "ЧТО ТАКОЕ"
-
-msgid "TAX FREE"
-msgstr "TAX FREE"
-
-msgid "BLOCKCHAIN"
-msgstr "BLOCKCHAIN"
-
-msgid "Децентрализованная tax free маркет платформа на blockchain ethereum с tax free сервисом, на базе мобильного приложения."
-msgstr "Децентрализованная tax free маркет платформа на blockchain ethereum с tax free сервисом, на базе мобильного приложения."
-
-msgid "Преимущество инновационной"
-msgstr "Преимущество инновационной"
-
-msgid "системы Tax Free"
-msgstr "системы Tax Free"
-
-msgid "Используйте весь потенциал возврата НДC"
-msgstr "Используйте весь потенциал возврата НДC"
-
-msgid "ОБЛАЧНАЯ БАЗА ДАННЫХ"
-msgstr "ОБЛАЧНАЯ БАЗА ДАННЫХ"
-
-msgid "Облачная электронная система которая не требует заполнение каких либо бумаг."
-msgstr "Облачная электронная система которая не требует заполнение каких либо бумаг."
-
-msgid "МГНОВЕННО"
-msgstr "МГНОВЕННО"
-
-msgid "Tax Free Blockchain позволяет оплачивать туристу товар в системе Tax Free сразу без НДС."
-msgstr "Tax Free Blockchain позволяет оплачивать туристу товар в системе Tax Free сразу без НДС."
-
-msgid "СУММИРОВАНИЕ"
-msgstr "СУММИРОВАНИЕ"
-
-msgid "Совершая покупки в любом магазине,который является плательщиком НДС,сервис суммирует суммы чеков в одну экспортную декларацию"
-msgstr "Совершая покупки в любом магазине,который является плательщиком НДС,сервис суммирует суммы чеков в одну экспортную декларацию"
-
+#: partials/posts.php:4 partials/advantages.php:49
 msgid "100% ВОЗВРАТ НДС"
-msgstr "100% ВОЗВРАТ НДС"
+msgstr " 100% ВОЗВРАТ НДС"
 
-msgid "Вы получаете 100% возмещение НДС, без каких либо комиссий."
-msgstr "Вы получаете 100% возмещение НДС, без каких либо комиссий."
-
-msgid "Дорожная карта"
-msgstr "Дорожная карта"
-
+#: partials/questions.php:4
 msgid "Самые частые вопросы"
 msgstr "Самые частые вопросы"
 
+#: partials/questions.php:42
 msgid "Принять участие в революционном проекте"
 msgstr "Принять участие в революционном проекте"
 
+#: partials/questions.php:43 partials/banner.php:33
+msgid "Current discount"
+msgstr "Current discount"
+
+#: partials/questions.php:43 partials/banner.php:33
+msgid "from PRE ICO base price"
+msgstr "from PRE ICO base price"
+
+#: partials/questions.php:45
 msgid "Get my TFC"
 msgstr "Get my TFC"
+
+#: partials/advantages.php:4
+msgid "Преимущество инновационной"
+msgstr "Преимущество инновационной"
+
+#: partials/advantages.php:5
+msgid "системы Tax Free"
+msgstr "системы Tax Free"
+
+#: partials/advantages.php:6
+msgid "Используйте весь потенциал возврата НДC"
+msgstr "Используйте весь потенциал возврата НДC"
+
+#: partials/advantages.php:14
+msgid "ОБЛАЧНАЯ БАЗА ДАННЫХ"
+msgstr "ЦИФРОВОЙ ФОРМАТ"
+
+#: partials/advantages.php:25
+msgid "МГНОВЕННО"
+msgstr "СКАНИРОВАНИЕ"
+
+#: partials/advantages.php:36
+msgid "СУММИРОВАНИЕ"
+msgstr "ГОСУДАРСТВО"
+
+#: partials/advantages.php:37
+msgid ""
+"Совершая покупки в любом\n"
+"                        магазине,который является\n"
+"                        плательщиком НДС,сервис\n"
+"                        суммирует суммы чеков\n"
+"                        в одну экспортную декларацию"
+msgstr "Система улучшит защиту от мошенничества в процессе возврата НДС."
+
+#: partials/team.php:4
+msgid "Наша команда"
+msgstr "Our team"
+
+#: partials/banner.php:20
+msgid "Tax Free Coin"
+msgstr "Tax Free Blockchain"
+
+#: partials/banner.php:21
+msgid "Децентрализованная tах free платформа на blockchain"
+msgstr "100% ВОЗМЕЩЕНИЕ НДС"
+
+#: partials/banner.php:23 partials/banner.php:24
+msgid "SoftCap"
+msgstr "SoftCap"
+
+msgid "HardCap"
+msgstr "HardCap"
+
+#: partials/banner.php:32
+msgid "TFC"
+msgstr "TFC"
+
+#: partials/banner.php:38
+msgid "Payemnt method"
+msgstr "Способ оплаты"
+
+#: partials/banner.php:44
+msgid "Get Tokens"
+msgstr "Get Tokens"
+
+#: partials/banner.php:48
+msgid "PRE-ICO Bonus"
+msgstr "PRE-ICO Bonus"
+
+#: partials/banner.php:48
+msgid "discount"
+msgstr "discount"
+
+#: partials/banner.php:49
+msgid "ends in"
+msgstr "ends in"
+
+#: partials/banner.php:55
+msgid "Days"
+msgstr "Days"
+
+#: partials/banner.php:59
+msgid "Hours"
+msgstr "Hours"
+
+#: partials/banner.php:63
+msgid "Minutes"
+msgstr "Minutes"
+
+#: partials/banner.php:67
+msgid "Seconds"
+msgstr "Seconds"
+
+#: partials/about.php:5
+msgid "ЧТО ТАКОЕ"
+msgstr "ЧТО ТАКОЕ"
+
+#: partials/about.php:5
+msgid "TAX FREE"
+msgstr "TAX FREE"
+
+#: partials/about.php:6
+msgid "BLOCKCHAIN"
+msgstr "BLOCKCHAIN"
+
+#: partials/menu.php:33
+msgid "Join"
+msgstr "Join"
+
+#: partials/menu.php:33
+msgid "PRE-ICO"
+msgstr "PRE-ICO"
+
+#: partials/roadmap.php:4
+msgid "Дорожная карта"
+msgstr "Дорожная карта"

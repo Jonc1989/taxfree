@@ -79,7 +79,7 @@
 			
 			<div class="col-xs-12 gray-darker">
 				<div class="col-md-6 col-sm-12 col-xs-12 clear-pads">
-					info@taxfree.market
+					<?php echo get_bloginfo("admin_email");?>
 				</div>
 				<div class="col-md-6 col-sm-12 col-xs-12 clear-pads">
 					© TaxFree Blockchain 2018

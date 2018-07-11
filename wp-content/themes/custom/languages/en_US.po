@@ -5,7 +5,7 @@ msgstr ""
 "POT-Creation-Date: 2016-09-30 17:43+0300\n"
 "POT-Revision-Date: Mon Jul 25 2016 08:51:33 GMT+0700 (SE Asia Standard Time)"
 "\n"
-"PO-Revision-Date: 2018-06-06 10:31+0000\n"
+"PO-Revision-Date: 2018-06-28 14:03+0000\n"
 "Language-Team: English (United States)\n"
 "Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
@@ -23,13 +23,13 @@ msgstr ""
 "Language: en-US\n"
 "X-Poedit-SearchPath-0: .."
 
+#: ../inc/admin/settings/settings.php:1136
+msgid "Header Type"
+msgstr "Header Type"
+
 #: ../404.php:43
 msgid "404"
 msgstr "404"
-
-#: ../inc/admin/settings/settings.php:1136
-msgid "Header Type"
-msgstr ""
 
 msgid "agreement terms text"
 msgstr "i agree with the "
@@ -66,9 +66,6 @@ msgstr "Advantages"
 
 msgid "Page not found"
 msgstr "Page not found"
-
-msgid "Soft Cap"
-msgstr "Soft Cap"
 
 msgid "2000 ETH goal"
 msgstr "2000 ETH goal"
@@ -113,10 +110,14 @@ msgid "Tax Free Coin"
 msgstr "Tax Free Coin"
 
 msgid "Децентрализованная tах free платформа на blockchain"
-msgstr "Децентрализованная tах free платформа на blockchain"
+msgstr ""
+"Децентрализованная tах free платформа на blockchain. English translation"
 
 msgid "SoftCap"
 msgstr "SoftCap"
+
+msgid "HardCap"
+msgstr "HardCap"
 
 msgid "TFC"
 msgstr "TFC"
@@ -163,8 +164,10 @@ msgstr "TAX FREE"
 msgid "BLOCKCHAIN"
 msgstr "BLOCKCHAIN"
 
-msgid "Децентрализованная tax free маркет платформа на blockchain ethereum с tax free сервисом, на базе мобильного приложения."
-msgstr "Децентрализованная tax free маркет платформа на blockchain ethereum с tax free сервисом, на базе мобильного приложения."
+msgid "Децентрализованная tax free маркет платформа."
+msgstr ""
+"Децентрализованная tax free маркет платформа на blockchain ethereum с tax "
+"free сервисом, на базе мобильного приложения."
 
 msgid "Преимущество инновационной"
 msgstr "Преимущество инновационной"
@@ -178,20 +181,30 @@ msgstr "Используйте весь потенциал возврата НД
 msgid "ОБЛАЧНАЯ БАЗА ДАННЫХ"
 msgstr "ОБЛАЧНАЯ БАЗА ДАННЫХ"
 
-msgid "Облачная электронная система которая не требует заполнение каких либо бумаг."
-msgstr "Облачная электронная система которая не требует заполнение каких либо бумаг."
+msgid ""
+"Облачная электронная система которая не требует заполнение каких либо бумаг."
+msgstr ""
+"Облачная электронная система которая не требует заполнение каких либо бумаг."
 
 msgid "МГНОВЕННО"
 msgstr "МГНОВЕННО"
 
-msgid "Tax Free Blockchain позволяет оплачивать туристу товар в системе Tax Free сразу без НДС."
-msgstr "Tax Free Blockchain позволяет оплачивать туристу товар в системе Tax Free сразу без НДС."
+msgid ""
+"Tax Free Blockchain позволяет оплачивать туристу товар в системе Tax Free "
+"сразу без НДС."
+msgstr ""
+"Tax Free Blockchain позволяет оплачивать туристу товар в системе Tax Free "
+"сразу без НДС."
 
 msgid "СУММИРОВАНИЕ"
 msgstr "СУММИРОВАНИЕ"
 
-msgid "Совершая покупки в любом магазине,который является плательщиком НДС,сервис суммирует суммы чеков в одну экспортную декларацию"
-msgstr "Совершая покупки в любом магазине,который является плательщиком НДС,сервис суммирует суммы чеков в одну экспортную декларацию"
+msgid ""
+"Совершая покупки в любом магазине,который является плательщиком НДС,сервис "
+"суммирует суммы чеков в одну экспортную декларацию"
+msgstr ""
+"Совершая покупки в любом магазине,который является плательщиком НДС,сервис "
+"суммирует суммы чеков в одну экспортную декларацию"
 
 msgid "100% ВОЗВРАТ НДС"
 msgstr "100% ВОЗВРАТ НДС"
@@ -210,9 +223,6 @@ msgstr "Принять участие в революционном проект
 
 msgid "Get my TFC"
 msgstr "Get my TFC"
-
-msgid "xxxxx"
-msgstr "xxxxx"
 
 msgid "xxxxx"
 msgstr "xxxxx"

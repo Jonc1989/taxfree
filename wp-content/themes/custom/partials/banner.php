@@ -21,7 +21,7 @@
 			<p class="wall-left"><?php echo __( 'Децентрализованная tах free платформа на blockchain', 'taxfree' ) ?></p>
 
 			<div class="inline soft-cap"><?php echo __( 'SoftCap', 'taxfree' ) ?> 250,000$</div>
-			<div class="inline soft-cap pull-right"><?php echo __( 'SoftCap', 'taxfree' ) ?> 250,000$</div>
+			<div class="inline soft-cap pull-right"><?php echo __( 'HardCap', 'taxfree' ) ?> 1,000,000$</div>
 
 			<div class="col-xs-12 clear-pads progress-bar-wrap">
 				<div class="progress">
