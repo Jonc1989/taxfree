@@ -35,7 +35,7 @@
                             </div>
     
     
-                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 text-block">
+                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 text-block title-block">
                                 <h4 class="bold"><?php the_title(); ?></h4>
                             </div>
                             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 text-block">
